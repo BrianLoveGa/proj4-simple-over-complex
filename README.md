@@ -11,7 +11,7 @@ My goal here is to provide a simple game coded in Python3 that users can copy an
 Simple being 1 hero/heroine character you choose the name for ... 1 'bad-guy' ... and 3 questions (riddles, puzzles) to solve. You start with 10 health and 10 attack, the 'bad guy' has 50 health and 50 attack.
 
 
-Upon answering/solving the questions correctly you will gain something like 20 health and 20 attack points. Making it essential to answer the 3 questions before you can win the fight. Maybe have a little lesson about using words before resulting to fighting in the real world in there somewhere.
+Upon answering/solving the questions correctly you will gain something like 15 health and 15 attack points. Making it essential to answer the 3 questions before you can win the fight. Maybe have a little lesson about using words before resulting to fighting in the real world in there somewhere.
 
 
 Also will have instructions (typed out markdown style / embedded video/link to youtube) for creating a git hub account, installing python, installing a code editor (sublime or vs code) and using the new code editor to have a hello world file saved on git hub. and how to pay this 'game' now that you have some basics set up for coding.
