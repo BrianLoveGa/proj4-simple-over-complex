@@ -267,7 +267,7 @@ def game_lose():
         print("OH NOOO YOU ARE DEAD  !!\n")
         print("Sorry you lost \n" + myPlayer.name)
         print("You solved %i puzzles \n") % myPlayer.solve
-        print("Would you like to ay again ?\n")
+        print("Would you like to play again ?\n")
         print("Enter yes or exit .....\n")
         choice = input(">")
         yes = ["yes", "again", "restart", "play",
