@@ -82,8 +82,6 @@ class Enemy:
         self.name = 'Bad Guy'
         self.health = 50
         self.attack = 50
-        self.solve = 0
-        self.game_win = 0
 
 
 # initialize bad guy
