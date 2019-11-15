@@ -9,7 +9,7 @@ class PythonCodeAlong extends Component {
     this.state = { markdown: "" };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     // Get the contents from the Markdown file and put them in the React state, so we can reference it in render() below.
     fetch(PythonBasicCode)
       .then(res => res.text())
@@ -22,9 +22,9 @@ class PythonCodeAlong extends Component {
       <div className="PythonContainer">
         <h2 className="Python3">Python video tutorial code here</h2>
         <h3>This is the code-along version for my upcoming video tutorial series</h3>
-        <p className="mdcode">
+        <div className="mdcode">
           <ReactMarkdown source={markdown} />
-        </p>
+        </div>
       </div>
     );
   }

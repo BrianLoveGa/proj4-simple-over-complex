@@ -46,13 +46,13 @@ let bad = new Enemy("Bad guy");
 /// lets do puzzle prompts
 function puzzle_prompt() {
   alert("it's puzzle time");
-  if (myPlayer.solve == 0) {
+  if (myPlayer.solve === 0) {
     solve_puzzle1();
-  } else if (myPlayer.solve == 1) {
+  } else if (myPlayer.solve === 1) {
     solve_puzzle2();
-  } else if (myPlayer.solve == 2) {
+  } else if (myPlayer.solve === 2) {
     solve_puzzle3();
-  } else if (myPlayer.solve == 3) {
+  } else if (myPlayer.solve === 3) {
     alert("there are no more puzzles only the fight remains");
     game_loop();
   }
@@ -62,7 +62,7 @@ function puzzle_prompt() {
 
 function solve_puzzle1() {
   let puzzle1 = prompt(
-    "Puzzle 1 here... \n Let's start easy, \nwhat does 1 + 1 = ___?"
+    "Puzzle 1 here... \n Let's start easy, just fill in the blank \nwhat does 1 + 1 = ___?"
   );
   if (puzzle1 === null) {
     alert(
@@ -83,7 +83,7 @@ function solve_puzzle1() {
 
 function solve_puzzle2() {
   let puzzle2 = prompt(
-    "Puzzle 2 here... how about another easy one ? yes or no is learning fun ?"
+    "Puzzle 2 here... how about another easy one ? \n yes or no is learning fun ?"
   );
   if (puzzle2 === null) {
     alert(
@@ -110,13 +110,13 @@ function solve_puzzle2() {
 
 function solve_puzzle3() {
   let puzzle3 = prompt(
-    "Puzzle 3 here... last one ? true or false ... Is simple better than complex ?"
+    "Puzzle 3 here... ! last one ! \n true or false ? ... \n Is simple better (greater) than complex ?"
   );
   if (puzzle3 === null) {
     alert(
       "you clicked cancel \n please enter an answer \n you can exit from the main game loop"
     );
-    solve_puzzle2();
+    solve_puzzle3();
   } else if (
     puzzle3.toLowerCase() === "true" ||
     puzzle3.toLowerCase() === "t" ||
@@ -337,7 +337,7 @@ function game_loop() {
       " ...\n who is going to save the DAY!"
   );
   let action = prompt(
-    " !!_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_!!\n What would you like to do ? \n options include: \n 1) info  2) puzzle  3) fight  4) quit\n info or 1 will tell you how many puzzles are complete\n and your stats and the bad guys stats currently\n 2 or puzzle will open the puzzles menu\n 3 or fight will open the fight menu\n 4 or quit will exit\n ... remember fight works best after answering all the questions to rank up ..."
+    " !!_-_-_-_-_  " + myPlayer.name + "  _-_-_-_-_-_!!\n What would you like to do ? \n options include: \n 1) info  2) puzzle  3) fight  4) quit\n  \n 1 or info  will tell you how many puzzles are complete\n and your stats and the bad guys stats currently\n 2 or puzzle will open the puzzles menu\n 3 or fight will open the fight menu\n 4 or quit will exit\n ... remember fight works best after answering all the questions to rank up ..."
   );
   if (action === null) {
     alert("you clicked cancel ... was it an accident?");
@@ -372,7 +372,7 @@ function start_game() {
   alert(
     "Greetings and welcome to SIMPLE > COMPLEX \n a simple and basic game originally encoded in python \n adapted to Javascript prompts"
   );
-  alert("I'm Brian the narrator for the game... What's you name stranger ?");
+  alert("I'm Brian the narrator for the game... What's your name stranger ?");
   let name = prompt("Enter your name below please ");
   if (name === null || name === "") {
     alert("Come on now don't be shy I know you have a name please enter it");

@@ -10,7 +10,7 @@ class PythonBasic extends Component {
     this.state = { markdown: "" };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     // Get the contents from the Markdown file and put them in the React state, so we can reference it in render() below.
     fetch(PythonBasicCode)
       .then(res => res.text())
@@ -22,7 +22,7 @@ class PythonBasic extends Component {
     return (
       <div className="PythonContainer">
         <h3 className="Python3">Python basic code here</h3>
-        <p className="mdcode" ><ReactMarkdown source={markdown} /></p>
+        <div className="mdcode" ><ReactMarkdown source={markdown} /></div>
       </div>
     );
   }
