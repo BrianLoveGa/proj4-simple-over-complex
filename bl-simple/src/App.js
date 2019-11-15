@@ -9,6 +9,8 @@ import JsConsole from "./componets/JsConsole";
 import JsPrompts from "./componets/JsPrompts";
 import PythonBasic from "./componets/PythonBasic";
 import PythonCodeAlong from "./componets/PythonCodeAlong";
+import ConsoleCode from "./componets/ConsoleCode";
+import PromptCode from "./componets/PromptCode";
 
 function App() {
   return (
@@ -45,7 +47,13 @@ function App() {
           <Route path="/jsconsole" exact={true} component={JsConsole} />{" "}
           <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
           <Route path="/python/basic" exact={true} component={PythonBasic} />{" "}
-          <Route path="/python/along" exact={true} component={PythonCodeAlong} />{" "}
+          <Route
+            path="/python/along"
+            exact={true}
+            component={PythonCodeAlong}
+          />{" "}
+          <Route path="/jsconsole/code" exact={true} component={ConsoleCode} />{" "}
+          <Route path="/jsprompts/code" exact={true} component={PromptCode} />{" "}
           <Redirect to="/" />
         </Switch>{" "}
       </main>{" "}

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Python.css";
-import "../App.css";
 
 class Python extends Component {
   render() {
@@ -25,6 +24,7 @@ class Python extends Component {
           The same game you played in Prompts and Console Log, but encoded in
           Python3
         </h2>
+
         <Link className="link" to="/python/basic">
           Basic Code Version
         </Link>
