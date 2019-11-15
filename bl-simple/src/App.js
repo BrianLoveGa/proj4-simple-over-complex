@@ -1,12 +1,12 @@
 import React from "react"; /// well its a react app
 import { Route, Switch, Link, Redirect } from "react-router-dom"; /// to have all the pages happy clicky
 import "./App.css"; /// b/c style points count
-import Home from './componets/Home';
-import Weather from './componets/Weather';
-import Python from './componets/Python';
-import HowTo from './componets/HowTo';
-import JsConsole from './componets/JsConsole';
-import JsPrompts from './componets/JsPrompts';
+import Home from "./componets/Home";
+import Weather from "./componets/Weather";
+import Python from "./componets/Python";
+import HowTo from "./componets/HowTo";
+import JsConsole from "./componets/JsConsole";
+import JsPrompts from "./componets/JsPrompts";
 
 function App() {
   return (
@@ -33,24 +33,33 @@ function App() {
         <Link className="link" to="/jsconsole">
           Js Console
         </Link>
-
       </nav>
-      <hr></hr>
       <main>
         <Switch>
-          <div>
-            <div className="appMain">
-              <Route path="/" exact={true} component={Home} />{" "}
-            </div>{" "}
-            <Route path="/weather" exact={true} component={Weather} />{" "}
-            <Route path="/python" exact={true} component={Python} />{" "}
-            <Route path="/howto" exact={true} component={HowTo} />{" "}
-            <Route path="/jsconsole" exact={true} component={JsConsole} />{" "}
-            <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
-            <Redirect to="/" />
-          </div>{" "}
+          <Route path="/" exact={true} component={Home} />{" "}
+          <Route path="/weather" exact={true} component={Weather} />{" "}
+          <Route path="/python" exact={true} component={Python} />{" "}
+          <Route path="/howto" exact={true} component={HowTo} />{" "}
+          <Route path="/jsconsole" exact={true} component={JsConsole} />{" "}
+          <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
+          <Redirect to="/" />
         </Switch>{" "}
       </main>{" "}
+      <hr></hr>
+      <footer>
+        <h4>
+          Made with love by{" "}
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            className="foot"
+            href="https://www.brianloveless.com"
+          >
+            {" "}
+            Brian Loveless{" "}
+          </a>
+        </h4>
+      </footer>
     </div>
   );
 }
