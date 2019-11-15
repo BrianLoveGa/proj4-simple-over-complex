@@ -7,7 +7,7 @@ class JsConsole extends Component {
     return (
       <div className="JsConsoleContainer">
         <h3 className="JsConsole3">JsConsole page here</h3>
-        <Link className="link" to="/jsconsole/code">
+        <Link className="code" to="/jsconsole/code">
           Click here for the console log style code
         </Link>
       </div>

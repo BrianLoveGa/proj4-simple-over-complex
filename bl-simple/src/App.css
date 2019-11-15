@@ -38,11 +38,24 @@ nav {
 .link:hover {
   background-color: rgb(66, 66, 231);
 }
+.code {
+  color: #000c0a;
+  padding: 15px 20px;
+  background-color: rgb(10, 150, 33);
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 25px;
+}
 
-footer{
+.code:hover{
+background-color: rgb(83, 202, 102);
+}
+
+footer {
   background-image: linear-gradient(rgb(242, 0, 255), rgb(92, 199, 241));
   height: 50px;
-  padding:5px;
+  padding: 5px;
 }
 
 .foot {
@@ -60,8 +73,6 @@ footer{
   font-size: 18px;
 }
 
-
-
 @media screen and (max-width: 825px) {
   .App-header {
     font-size: 25px;
@@ -75,10 +86,10 @@ footer{
     padding: 1px;
     margin: 1%;
   }
-  .foot{
-    font-size:10px;
+  .foot {
+    font-size: 10px;
   }
-  .foot:hover{
-    font-size:12px;
+  .foot:hover {
+    font-size: 12px;
   }
 }

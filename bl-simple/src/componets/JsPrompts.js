@@ -7,7 +7,7 @@ class JsPrompts extends Component {
     return (
       <div className="JsPromptsContainer">
         <h3 className="JsPrompts3">JsPrompts page here</h3>
-        <Link className="link" to="/jsprompts/code">
+        <Link className="code" to="/jsprompts/code">
           Click here for the prompts code 
         </Link>
         

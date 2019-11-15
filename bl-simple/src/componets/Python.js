@@ -25,10 +25,10 @@ class Python extends Component {
           Python3
         </h2>
 
-        <Link className="link" to="/python/basic">
+        <Link className="code" to="/python/basic">
           Basic Code Version
         </Link>
-        <Link className="link" to="/python/along">
+        <Link className="code" to="/python/along">
           Version for Code along Video Tutorial
         </Link>
       </div>
