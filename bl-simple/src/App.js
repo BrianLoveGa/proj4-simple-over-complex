@@ -7,6 +7,8 @@ import Python from "./componets/Python";
 import HowTo from "./componets/HowTo";
 import JsConsole from "./componets/JsConsole";
 import JsPrompts from "./componets/JsPrompts";
+import PythonBasic from "./componets/PythonBasic";
+import PythonCodeAlong from "./componets/PythonCodeAlong";
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
           <Route path="/howto" exact={true} component={HowTo} />{" "}
           <Route path="/jsconsole" exact={true} component={JsConsole} />{" "}
           <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
+          <Route path="/python/basic" exact={true} component={PythonBasic} />{" "}
+          <Route path="/python/along" exact={true} component={PythonCodeAlong} />{" "}
           <Redirect to="/" />
         </Switch>{" "}
       </main>{" "}
