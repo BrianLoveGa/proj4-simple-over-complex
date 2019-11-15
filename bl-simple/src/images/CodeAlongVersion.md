@@ -51,9 +51,9 @@
 
 # to win solve 3 puzzles defeat 'bad guy'
 # to lose - fight bad guy before solving puzzles and 'die'
-
+```
 *****
-
+```
 ###### _-_-_-_ ##### SIMPLE GAME  ##### _-_-_-_ #####
 
 # need to import python stuff

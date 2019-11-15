@@ -1,4 +1,4 @@
-'''
+```
 # WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 #######                                                                           #
 #######                                                                           #
@@ -9,7 +9,9 @@
 #######                                                                           #
 #######                                                                           #
 # <><<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+```
 *****
+```
 # need to import python stuff
 import sys    # _-_ imports the system module from the main python files on your computer
 import os     # _-_ imports operating system module
@@ -469,4 +471,4 @@ def game_loop():
 ## end of main game menu
 #######   END OF SIMPLE GAME LOGIC
 start_game()
-'''
+```
