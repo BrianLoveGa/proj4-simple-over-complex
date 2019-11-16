@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactMarkdown from "react-markdown";
-import PythonBasicCode from "../images/PythonBasicCode.md";
+import PythonBasicCode from "../images/CodeAlongVersion.md";
 import "./Python.css";
 
 class PythonCodeAlong extends Component {

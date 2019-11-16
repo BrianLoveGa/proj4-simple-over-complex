@@ -180,49 +180,54 @@ class ReactGame extends Component {
   render() {
     return (
       <div className="ReactGameContainer">
-        <Link className="code" to="/reactgame/code">
-          Click here for the code on this page
-        </Link>
-        <h2>How to do a simple game within React</h2>
+        <h2 className="top">How to do a simple game within React</h2>
+        <div className="linkholder">
+          <Link className="code" to="/reactgame/code">
+            Click here for the code on this page
+          </Link>
+        </div>
 
         <h4>number: {this.state.number}</h4>
-        <button className="di" onClick={this.decreaseNumber}>
-          Decrease number
+        <button className="down" onClick={this.decreaseNumber}>
+          - Decrease number -
         </button>
-        <button className="pu" onClick={this.increaseNumber}>
-          Increase number
+        <button className="up" onClick={this.increaseNumber}>
+          + Increase number +
         </button>
         <h3>
           Above you can click the buttons to make the number go up or down
         </h3>
         <hr></hr>
-        <h3>Play below with buttons and prompts simple game version</h3>
-        <h4> I have added a health potion option</h4>
-        <h2>
-          Your Health: {this.state.health} ... Your Attack Power:{" "}
-          {this.state.attack}
-        </h2>
-        <h2>
-          Your Potions: {this.state.potions} ... Your Solves: {this.state.solve}{" "}
-        </h2>
+        <div className="play">
+          <h3>Play below with buttons and prompts simple game version</h3>
+          <h4> I have added a health potion option</h4>
+          <h2>
+            Your Health: {this.state.health} ... Your Attack Power:{" "}
+            {this.state.attack}
+          </h2>
+          <h2>
+            Your Potions: {this.state.potions} ... Your Solves:{" "}
+            {this.state.solve}{" "}
+          </h2>
 
-        <h2>
-          Enemy Health: {this.state.badHealth} _-_ Enemy Attack:{" "}
-          {this.state.badAttack}
-        </h2>
-        <button className="reset" onClick={this.reset}>
-          Reset the game
-        </button>
-        <button className="puzzle" onClick={this.puzzle}>
-          Try a Puzzle
-        </button>
-        <button className="potion" onClick={this.healthPotion}>
-          Take A Health potion
-        </button>
-        <button className="fight" onClick={this.fight}>
-          Fight the Enemy
-        </button>
-        <br></br>
+          <h2>
+            Enemy Health: {this.state.badHealth} _-_ Enemy Attack:{" "}
+            {this.state.badAttack}
+          </h2>
+          <button className="reset" onClick={this.reset}>
+            Reset the game
+          </button>
+          <button className="puzzle" onClick={this.puzzle}>
+            Try a Puzzle
+          </button>
+          <button className="potion" onClick={this.healthPotion}>
+            Take A Health potion
+          </button>
+          <button className="fight" onClick={this.fight}>
+            Fight the Enemy
+          </button>
+          <br></br>
+        </div>
         <hr></hr>
         <br></br>
       </div>
