@@ -80,16 +80,12 @@ class ReactGame extends Component {
   puzzle = () => {
     if (this.state.health < 1) {
       alert("sorry you are dead. \n allow me to reset the game for you");
-      this.setState({
-        /// not the best way to achioeve this but ok for the purposes of this simple game demo
-        number: (this.state.number = 0),
-        health: (this.state.health = 50),
-        solve: (this.state.solve = 0),
-        attack: (this.state.attack = 10),
-        potions: (this.state.potions = 2),
-        badAttack: (this.state.badAttack = 49),
-        badHealth: (this.state.badHealth = 50)
-      });
+      this.reset();
+    } else if (this.state.badHealth < 1) {
+      alert(
+        "CONGRATS YOU DEFEATED THE ENEMY ! \n allow me to reset the game \n so you can play again"
+      );
+      this.reset();
     } else {
       if (this.state.solve === 0) {
         this.puzzle1();
@@ -141,46 +137,35 @@ class ReactGame extends Component {
 
   fight = () => {
     alert("fight time \n Let the battle begin");
-    if (this.state.health < 0){
-      alert("you can't fight you're dead \n reset the game to play again")
-    } else if (this.state.badHealth < 0){
-      alert("CONGRATS YOU WIN THE ENEMY IS DEFEATED! \n reset then game to play again ")
+    if (this.state.health < 0) {
+      alert("you can't fight you're dead \n reset the game to play again");
+    } else if (this.state.badHealth < 0) {
+      alert(
+        "CONGRATS YOU WIN THE ENEMY IS DEFEATED! \n reset then game to play again "
+      );
     } else {
-    this.setState({
-      health: this.state.health - this.state.badAttack,
-      badHealth: this.state.badHealth - this.state.attack
-    });
-    alert("what a quick fight \n so fast I almost didn't even see you move");
-    if (this.state.health <= 1) {
-      alert("! SORRY ... game over ... \n you lost the fight");
-      alert("allow me to reset the game for you");
       this.setState({
-        /// not the best way to achioeve this but ok for the purposes of this simple game demo
-        number: (this.state.number = 0),
-        health: (this.state.health = 50),
-        solve: (this.state.solve = 0),
-        attack: (this.state.attack = 10),
-        potions: (this.state.potions = 2),
-        badAttack: (this.state.badAttack = 49),
-        badHealth: (this.state.badHealth = 50)
+        health: this.state.health - this.state.badAttack,
+        badHealth: this.state.badHealth - this.state.attack
       });
-    } else if (this.state.badHealth <= 1) {
-      alert("!!!!! congrats !!!!!! \n YOU WON THANKS FOR PLAYING !");
-      alert("allow me to reset the game for you");
-      this.setState({
-        number: (this.state.number = 0),
-        health: (this.state.health = 50),
-        solve: (this.state.solve = 0),
-        attack: (this.state.attack = 10),
-        potions: (this.state.potions = 2),
-        badAttack: (this.state.badAttack = 49),
-        badHealth: (this.state.badHealth = 50)
-      });
-    }}
+      alert("what a quick fight \n so fast I almost didn't even see you move");
+      if (this.state.health <= 1) {
+        alert("! SORRY ... game over ... \n you lost the fight");
+        alert("allow me to reset the game for you");
+        this.reset();
+      } else if (this.state.badHealth <= 1) {
+        alert("!!!!! congrats !!!!!! \n YOU WON THANKS FOR PLAYING !");
+        alert("allow me to reset the game for you");
+        this.reset();
+      }
+    }
   };
 
   reset = () => {
-    alert("You chose to reset the game .");
+    alert("Resetting the game to start data.");
+
+    /// this is not best practices but ok enough
+    ///  please ingnore the warnings for this simple game demo concept
     this.setState({
       number: (this.state.number = 0),
       health: (this.state.health = 50),
