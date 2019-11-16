@@ -6,7 +6,7 @@ class ConsoleCode extends Component {
     return (
       <div className="ConsoleCodeContainer">
 
-        <h3 className="ConsoleCode3">Console Code Mark Down here</h3>
+        <h3 className="ConsoleCode3">Test Console Code Mark Down here</h3>
       </div>
     );
   }
