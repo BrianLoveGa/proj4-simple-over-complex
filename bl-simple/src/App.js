@@ -5,11 +5,11 @@ import Home from "./componets/Home";
 import Weather from "./componets/Weather";
 import Python from "./componets/Python";
 import HowTo from "./componets/HowTo";
-import JsConsole from "./componets/JsConsole";
+import ReactGame from "./componets/ReactGame";
 import JsPrompts from "./componets/JsPrompts";
 import PythonBasic from "./componets/PythonBasic";
 import PythonCodeAlong from "./componets/PythonCodeAlong";
-import ConsoleCode from "./componets/ConsoleCode";
+import ReactGameCode from "./componets/ReactGameCode";
 import PromptCode from "./componets/PromptCode";
 
 function App() {
@@ -34,8 +34,8 @@ function App() {
         <Link className="link" to="/jsprompts">
           Js Prompts
         </Link>
-        <Link className="link" to="/jsconsole">
-          Js Console
+        <Link className="link" to="/reactgame">
+          React Game
         </Link>
       </nav>
       <main>
@@ -44,7 +44,7 @@ function App() {
           <Route path="/weather" exact={true} component={Weather} />{" "}
           <Route path="/python" exact={true} component={Python} />{" "}
           <Route path="/howto" exact={true} component={HowTo} />{" "}
-          <Route path="/jsconsole" exact={true} component={JsConsole} />{" "}
+          <Route path="/reactgame" exact={true} component={ReactGame} />{" "}
           <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
           <Route path="/python/basic" exact={true} component={PythonBasic} />{" "}
           <Route
@@ -52,7 +52,7 @@ function App() {
             exact={true}
             component={PythonCodeAlong}
           />{" "}
-          <Route path="/jsconsole/code" exact={true} component={ConsoleCode} />{" "}
+          <Route path="/reactgame/code" exact={true} component={ReactGameCode} />{" "}
           <Route path="/jsprompts/code" exact={true} component={PromptCode} />{" "}
           <Redirect to="/" />
         </Switch>{" "}
