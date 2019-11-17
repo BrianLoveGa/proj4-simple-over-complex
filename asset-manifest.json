@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/proj4-simple-over-complex/static/css/main.0bb9f5ee.chunk.css",
+    "main.js": "/proj4-simple-over-complex/static/js/main.6e1053d0.chunk.js",
+    "main.js.map": "/proj4-simple-over-complex/static/js/main.6e1053d0.chunk.js.map",
+    "runtime-main.js": "/proj4-simple-over-complex/static/js/runtime-main.ad86c6ab.js",
+    "runtime-main.js.map": "/proj4-simple-over-complex/static/js/runtime-main.ad86c6ab.js.map",
+    "static/js/2.2125153f.chunk.js": "/proj4-simple-over-complex/static/js/2.2125153f.chunk.js",
+    "static/js/2.2125153f.chunk.js.map": "/proj4-simple-over-complex/static/js/2.2125153f.chunk.js.map",
+    "index.html": "/proj4-simple-over-complex/index.html",
+    "precache-manifest.bde584ee22609f5d6ebe7604532fd054.js": "/proj4-simple-over-complex/precache-manifest.bde584ee22609f5d6ebe7604532fd054.js",
+    "service-worker.js": "/proj4-simple-over-complex/service-worker.js",
+    "static/css/main.0bb9f5ee.chunk.css.map": "/proj4-simple-over-complex/static/css/main.0bb9f5ee.chunk.css.map",
+    "static/media/CodeAlongVersion.md": "/proj4-simple-over-complex/static/media/CodeAlongVersion.1a8ba028.md",
+    "static/media/PromptsCode.md": "/proj4-simple-over-complex/static/media/PromptsCode.665ba0ab.md",
+    "static/media/PythonBasicCode.md": "/proj4-simple-over-complex/static/media/PythonBasicCode.b32733cb.md",
+    "static/media/ReactCode.md": "/proj4-simple-over-complex/static/media/ReactCode.b6facb78.md",
+    "static/media/Home.css": "/proj4-simple-over-complex/static/media/starsBg-wide.768eb96f.jpg",
+    "static/media/title.png": "/proj4-simple-over-complex/static/media/title.fc5fd9a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad86c6ab.js",
+    "static/js/2.2125153f.chunk.js",
+    "static/css/main.0bb9f5ee.chunk.css",
+    "static/js/main.6e1053d0.chunk.js"
+  ]
+}
