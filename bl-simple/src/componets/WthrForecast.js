@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const WthrForecast = props => {
+const WthrForecast = (props) => {
   return (
     <div>
       {props.country && props.city && (

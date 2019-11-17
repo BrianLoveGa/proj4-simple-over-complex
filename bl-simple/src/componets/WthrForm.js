@@ -1,6 +1,6 @@
 import React from "react";
 
-const WthrForm = props => {
+const WthrForm = (props) => {
   return (
     <form onSubmit = {props.loadWeather}>
       <input
@@ -13,7 +13,7 @@ const WthrForm = props => {
         name="country"
         placeholder="Type Country Here ... United States"
       ></input>
-      <button> Show Me the Weather</button> 
+      <button type='submit'> Show Me the Weather</button> 
     </form>
   );
 };
