@@ -1,0 +1,30 @@
+.woof{
+    cursor:pointer;
+    font-size:20px;
+    padding:20px;
+    margin:5%;
+    border-radius: 20px;
+    border:3px solid slateblue;
+    background-color:skyblue;
+}
+
+.woof:hover{
+    border:5px solid rgb(80, 61, 202);
+    background-color:rgb(136, 168, 180);
+    padding:18px;
+
+}
+
+img{
+    max-width: 1000px;
+    max-height: 800px
+}
+
+
+
+@media screen and (max-width:400px){
+    img{
+        max-width:350px;
+        max-height:250px;
+    }
+}

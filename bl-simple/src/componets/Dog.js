@@ -13,15 +13,12 @@ function httpGet(theUrl) {
 function getRandomImage() {
   // get the json from the server
   var json = httpGet("https://dog.ceo/api/breeds/image/random");
-  //console.log(json);
 
   // decode the json into an array
   var array = JSON.parse(json);
-  //console.log(array);
 
   // get the image url from the array
   var url = array.message;
-  //console.log(url);
 
   // get the image object
   var image = document.getElementById("dogImage");
@@ -34,11 +31,11 @@ class Dog extends Component {
   render() {
     return (
       <div className="DogContainer">
-        <h3 className="Dog">Dog Pics</h3>
-        <button onClick={getRandomImage}>Click for a random image</button>
+        <h1 className="Dog">Dog Pics</h1>
+        <button className="woof" onClick={getRandomImage}>Click for a random dog image from the dog.ceo API</button>
         <br></br>
 
-        <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg" alt="random dog"></img>
+        <img id="dogImage"  src="https://dog.ceo/img/dog-api-logo.svg" alt="random dog"></img>
       </div>
     );
   }

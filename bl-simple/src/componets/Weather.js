@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Weather.css";
-import WthrHeading from "./WthrHeading";
 import WthrForm from "./WthrForm";
 import WthrForecast from "./WthrForecast";
 
@@ -19,15 +18,17 @@ class Weather extends Component {
     error: ""
   };
 
-  getWeatherInfo = async (e) => {
-    const city = e.target.elements.city.value;
-    const country = e.target.elements.country.value;
-    e.preventDefault();
+  getWeather = async event => {
+    const city = event.target.elements.city.value;
+    const country = event.target.elements.country.value;
+    event.preventDefault();
     const apiCall = await fetch(
       `api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=imperial&appid=${apiKey}`
     );
 
     const response = await apiCall.json();
+    console.log("check");
+    console.log(response);
     if (city && country) {
       this.setState({
         temperature: response.main.temp,
@@ -55,19 +56,22 @@ class Weather extends Component {
           src={require("../images/weather1.jpg")}
           alt="weather icons"
         ></img>
-        <WthrHeading />
-        <WthrForm loadWeather={this.getWeatherInfo} />
-        <WthrForecast
-          temperature={this.state.temperature}
-          city={this.state.city}
-          country={this.state.country}
-          humidity={this.state.humidity}
-          pressure={this.state.pressure}
-          wind={this.state.wind}
-          icon={this.state.icon}
-          description={this.state.description}
-          error={this.state.error}
-        />
+        <h1> What's the current weather today?</h1>
+        <h3>Find out weather conditions for your city.</h3>
+        <WthrForm loadWeather={this.getWeather} />
+        <div className="weatherData">
+          <WthrForecast
+            temperature={this.state.temperature}
+            city={this.state.city}
+            country={this.state.country}
+            humidity={this.state.humidity}
+            pressure={this.state.pressure}
+            wind={this.state.wind}
+            icon={this.state.icon}
+            description={this.state.description}
+            error={this.state.error}
+          />
+        </div>
       </div>
     );
   }
