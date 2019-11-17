@@ -6,14 +6,16 @@ const WthrForm = (props) => {
       <input
         type="text"
         name="city"
-        placeholder="Type City Here ... Atlanta "
+        placeholder="Type City Here ...   Atlanta, Paris, Tokoyo ..."
       />
+      <div></div>
       <input
         type="text"
         name="country"
-        placeholder="Type Country Here ... United States"
+        placeholder="Type Country Here ...   US, France, Japan ..."
       />
-      <button> Show Me the Weather</button>
+      <div></div>
+      <button className="showme"> Show Me the Weather</button>
     </form>
   );
 };

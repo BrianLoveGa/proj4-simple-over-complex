@@ -10,17 +10,24 @@ const WthrForecast = (props) => {
         </p>
       )}
       {props.temperature && <p> Current Temp: {props.temperature}</p>}
-      {props.humidity && <p> Humidity: {props.humidity} </p>}
-      {props.pressure && <p>Pressure: {props.pressure}</p>}
-      {props.wind && <p>Wind Speed: {props.wind}</p>}
-      {props.icon && (
-        <img
-          className="wthrIcon"
-          src={`http://openweathermap.org/img/wn/${props.icon}.png`}
-          alt="weather icon"
-        />
+      {props.humidity && props.wind && (
+        <p>
+          {" "}
+          Humidity: {props.humidity} _||_ Wind Speed: {props.wind}{" "}
+        </p>
       )}
+      <div className="picframe">
+        {props.icon && (
+          <img
+            className="wthrIcon"
+            src={`http://openweathermap.org/img/wn/${props.icon}.png`}
+            alt="weather icon"
+          />
+        )}
+      </div>
       {props.description && <p>Conditions: {props.description}</p>}
+      {props.sunrise && <p>Sunrise (unix,utc): {props.sunrise}</p>}
+      {props.sunset && <p>Sunset (unix,utc): {props.sunset}</p>}
       {props.error && <p>{props.error}</p>}
     </div>
   );

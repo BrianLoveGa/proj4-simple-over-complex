@@ -1,9 +1,50 @@
 .weatherContainer {
   margin: 2% 0;
+  background-color: rgba(235, 222, 222, 0.795);
 }
 
-.weatherPic{
-  height:100px;
-  width:200px;
+.weatherPic {
+  height: 100px;
+  width: 200px;
+}
 
+.form{
+  background-image: url("https://gcn.com/-/media/GIG/GCN/Redesign/Generic/Earthcloud.png");
+  width:80%;
+  margin:auto;
+}
+
+input {
+  font-size: 25px;
+  border-radius: 5px;
+  border: 3px solid rgba(248, 248, 137, 0.719);
+  width: 70%;
+  margin:5px;
+}
+
+.weatherData,
+.weatherData:before,
+.weatherData:after {
+  box-sizing: inherit;
+}
+.showme{
+  font-size:15px;
+  cursor: pointer;
+  margin:2%;
+}
+
+p{
+  font-size:20px;
+  margin:0;
+}
+/* .picframe{
+  height:250px;
+  width:250px;
+  background-color: slateblue;
+} */
+
+.wthrIcon{
+  height:200px;
+  width:200px;
+  background-color: slateblue;
 }

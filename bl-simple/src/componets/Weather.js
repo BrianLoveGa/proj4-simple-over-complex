@@ -15,6 +15,8 @@ class Weather extends Component {
     wind: "",
     icon: "",
     description: "",
+    sunrise: "",
+    sunset: "",
     error: ""
   };
 
@@ -25,10 +27,10 @@ class Weather extends Component {
     const apiCall = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=imperial&appid=${apiKey}`
     );
-      console.log(city)
+    //console.log(city)
     const response = await apiCall.json();
-    console.log("check");
-    console.log(response);
+    //console.log("check");
+    //console.log(response);
     if (city && country) {
       this.setState({
         temperature: response.main.temp,
@@ -39,6 +41,8 @@ class Weather extends Component {
         wind: response.wind.speed,
         icon: response.weather[0].icon,
         description: response.weather[0].description,
+        sunrise: response.sys.sunrise, 
+        sunset: response.sys.sunset,
         error: ""
       });
     } else {
@@ -56,9 +60,11 @@ class Weather extends Component {
           src={require("../images/weather1.jpg")}
           alt="weather icons"
         ></img>
-        <h1> What's the current weather today?</h1>
-        <h3>Find out weather conditions for your city.</h3>
-        <WthrForm loadWeather={this.getWeather} />
+        <div className="form">
+          <h1> What's the current weather today?</h1>
+          <h3>Find out weather conditions for your city.</h3>
+          <WthrForm loadWeather={this.getWeather} />
+        </div>
         <div className="weatherData">
           <WthrForecast
             temperature={this.state.temperature}
@@ -69,6 +75,8 @@ class Weather extends Component {
             wind={this.state.wind}
             icon={this.state.icon}
             description={this.state.description}
+            sunrise={this.state.sunrise}
+            sunset={this.state.sunset}
             error={this.state.error}
           />
         </div>
