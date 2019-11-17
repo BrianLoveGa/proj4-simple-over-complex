@@ -8,8 +8,13 @@
   width: 200px;
 }
 
+.boxy{
+  color: white;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
 .form{
-  background-image: url("https://gcn.com/-/media/GIG/GCN/Redesign/Generic/Earthcloud.png");
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/f/88/f88c1d3e-a07d-531f-bd83-7998e1b0a8ca/5a8edabd9e020.image.jpg");
   width:80%;
   margin:auto;
 }

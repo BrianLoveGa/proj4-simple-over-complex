@@ -26,8 +26,6 @@ const WthrForecast = (props) => {
         )}
       </div>
       {props.description && <p>Conditions: {props.description}</p>}
-      {props.sunrise && <p>Sunrise (unix,utc): {props.sunrise}</p>}
-      {props.sunset && <p>Sunset (unix,utc): {props.sunset}</p>}
       {props.error && <p>{props.error}</p>}
     </div>
   );

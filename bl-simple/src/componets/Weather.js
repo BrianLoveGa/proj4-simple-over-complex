@@ -61,8 +61,8 @@ class Weather extends Component {
           alt="weather icons"
         ></img>
         <div className="form">
-          <h1> What's the current weather today?</h1>
-          <h3>Find out weather conditions for your city.</h3>
+          <h1 className="boxy"> What's the current weather today?</h1>
+          <h3 className="boxy">Find out weather conditions for your city.</h3>
           <WthrForm loadWeather={this.getWeather} />
         </div>
         <div className="weatherData">
@@ -75,8 +75,6 @@ class Weather extends Component {
             wind={this.state.wind}
             icon={this.state.icon}
             description={this.state.description}
-            sunrise={this.state.sunrise}
-            sunset={this.state.sunset}
             error={this.state.error}
           />
         </div>
