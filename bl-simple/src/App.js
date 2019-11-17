@@ -11,6 +11,7 @@ import PythonBasic from "./componets/PythonBasic";
 import PythonCodeAlong from "./componets/PythonCodeAlong";
 import ReactGameCode from "./componets/ReactGameCode";
 import PromptCode from "./componets/PromptCode";
+import Dog from "./componets/Dog";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
         <Link className="link" to="/reactgame">
           React Game
         </Link>
+        <Link className="link" to="/dog">
+          Dogs
+        </Link>
       </nav>
       <main>
         <Switch>
@@ -46,13 +50,18 @@ function App() {
           <Route path="/howto" exact={true} component={HowTo} />{" "}
           <Route path="/reactgame" exact={true} component={ReactGame} />{" "}
           <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
+          <Route path="/dog" exact={true} component={Dog} />{" "}
           <Route path="/python/basic" exact={true} component={PythonBasic} />{" "}
           <Route
             path="/python/along"
             exact={true}
             component={PythonCodeAlong}
           />{" "}
-          <Route path="/reactgame/code" exact={true} component={ReactGameCode} />{" "}
+          <Route
+            path="/reactgame/code"
+            exact={true}
+            component={ReactGameCode}
+          />{" "}
           <Route path="/jsprompts/code" exact={true} component={PromptCode} />{" "}
           <Redirect to="/" />
         </Switch>{" "}
