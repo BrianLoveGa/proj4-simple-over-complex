@@ -38,7 +38,7 @@ class Dog extends Component {
         <button onClick={getRandomImage}>Click for a random image</button>
         <br></br>
 
-        <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg"></img>
+        <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg" alt="random dog"></img>
       </div>
     );
   }
