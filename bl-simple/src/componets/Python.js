@@ -8,8 +8,11 @@ class Python extends Component {
       <div className="PythonContainer">
         <h3 className="Python3">Python page here</h3>
         <h1>
-          After following the how to videos and installing Python on your
-          computer...
+          After following the{" "}
+          <Link  to="/howto">
+            How To
+          </Link>{" "}
+          videos and installing Python on your computer...
         </h1>
         <h1>Or if you are experienced with coding already</h1>
         <h1>
@@ -17,19 +20,19 @@ class Python extends Component {
           able to play the game in Python on your own computer!
         </h1>
         <h1>
-          Then you can change the files and grom this simple game into anything
+          Then you can change the files and grow this simple game into anything
           you want.
         </h1>
         <h2>
-          The same game you played in Prompts and Console Log, but encoded in
-          Python3
+          The same game you can also play in JS Prompts and React style with buttons and 
+          prompts, but encoded in Python3
         </h2>
 
         <Link className="code" to="/python/basic">
-          Basic Code Version
+          Basic code version
         </Link>
         <Link className="code" to="/python/along">
-          Version for Code along Video Tutorial
+          Version for code along video tutorial
         </Link>
       </div>
     );
