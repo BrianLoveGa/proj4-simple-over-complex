@@ -1,6 +1,6 @@
 import React from "react";
 
-const WthrForm = props => {
+const WthrForm = (props) => {
   return (
     <form onSubmit={props.loadWeather}>
       <input

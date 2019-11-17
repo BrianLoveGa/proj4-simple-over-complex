@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import "./Dog.css";
 
+// this is how the api told me to do it
+
 // function to perform a get request
 function httpGet(theUrl) {
   var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open("GET", theUrl, false); // false for synchronous request
+  xmlHttp.open("GET", theUrl, false); // false for synchronous request ... is deprecated but just one pic not too bad for U/X
   xmlHttp.send(null);
   return xmlHttp.responseText;
 }

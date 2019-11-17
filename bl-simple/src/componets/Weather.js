@@ -18,14 +18,14 @@ class Weather extends Component {
     error: ""
   };
 
-  getWeather = async event => {
-    const city = event.target.elements.city.value;
-    const country = event.target.elements.country.value;
-    event.preventDefault();
+  getWeather = async (e) => {
+    e.preventDefault();
+    const city = e.target.elements.city.value;
+    const country = e.target.elements.country.value;
     const apiCall = await fetch(
-      `api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=imperial&appid=${apiKey}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=imperial&appid=${apiKey}`
     );
-
+      console.log(city)
     const response = await apiCall.json();
     console.log("check");
     console.log(response);
