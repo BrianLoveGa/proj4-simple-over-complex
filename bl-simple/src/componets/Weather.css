@@ -1,5 +1,6 @@
 .weatherContainer {
   margin: 2% 0;
+  padding:20px;
   background-color: rgba(235, 222, 222, 0.795);
 }
 
@@ -39,14 +40,10 @@ input {
 }
 
 p{
-  font-size:20px;
-  margin:0;
+  font-size:30px;
+  margin:2%;
 }
-/* .picframe{
-  height:250px;
-  width:250px;
-  background-color: slateblue;
-} */
+
 
 .wthrIcon{
   height:200px;

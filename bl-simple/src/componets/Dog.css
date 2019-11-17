@@ -16,15 +16,10 @@
 }
 
 img{
-    max-width: 1000px;
-    max-height: 800px
+    max-width: 80%;
+    max-height: 80%;
+    background-color: silver;
 }
 
 
 
-@media screen and (max-width:400px){
-    img{
-        max-width:350px;
-        max-height:250px;
-    }
-}
