@@ -101,37 +101,51 @@ class ReactGame extends Component {
 
   puzzle1 = () => {
     let puz = prompt("What does 1 + 1 = ____?");
-    if (puz === "2" || puz.toLowerCase === "two") {
-      alert("correct answer good job");
-      this.solve1();
-      this.attackUp();
-      this.healthUp();
+    if (puz === null) {
     } else {
-      alert("sorry that was not correct");
+      if (puz === "2" || puz.toLowerCase() === "two") {
+        alert("correct answer good job");
+        this.solve1();
+        this.attackUp();
+        this.healthUp();
+      } else {
+        alert("sorry that was not correct");
+      }
     }
   };
 
   puzzle2 = () => {
-    let puz = prompt("Simple is better than complex? \n true or false?");
-    if (puz === "true") {
-      alert("correct answer good job");
-      this.solve1();
-      this.attackUp();
-      this.healthUp();
+    let puz = prompt("Simple is better than complex? \n True or False?");
+    if (puz === null) {
     } else {
-      alert("sorry that was not correct");
+      if (puz.toLowerCase() === "true" || puz.toLowerCase() === "tru") {
+        alert("correct answer good job");
+        this.solve1();
+        this.attackUp();
+        this.healthUp();
+      } else {
+        alert("sorry that was not correct");
+      }
     }
   };
+
   puzzle3 = () => {
-    let puz = prompt("Can learning be fun? \n yes or no ?");
-    if (puz === "yes") {
-      alert("correct answer good job");
-      this.solve1();
-      this.attackUp();
-      this.healthUp();
-      this.badUp();
+    let puz = prompt("Can learning be fun? \n Yes or No ?");
+    if (puz === null) {
     } else {
-      alert("sorry that was not correct");
+      if (
+        puz.toLowerCase() === "yes" ||
+        puz.toLowerCase() === "certianly" ||
+        puz.toLowerCase() === "indeed"
+      ) {
+        alert("correct answer good job");
+        this.solve1();
+        this.attackUp();
+        this.healthUp();
+        this.badUp();
+      } else {
+        alert("sorry that was not correct");
+      }
     }
   };
 

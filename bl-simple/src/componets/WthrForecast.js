@@ -9,11 +9,11 @@ const WthrForecast = (props) => {
           Location: {props.city}, {props.country}
         </p>
       )}
-      {props.temperature && <p> Current Temp: {props.temperature}</p>}
+      {props.temperature && <p> Current Temp: {props.temperature}(f)</p>}
       {props.humidity && props.wind && (
         <p>
           {" "}
-          Humidity: {props.humidity} _||_ Wind Speed: {props.wind}{" "}
+          Humidity: {props.humidity} % _||_ Wind Speed: {props.wind}{" "}mph
         </p>
       )}
       <div className="picframe">
