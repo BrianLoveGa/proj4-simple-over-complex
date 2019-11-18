@@ -6,11 +6,16 @@ class HowTo extends Component {
     return (
       <div className="HowToContainer">
         <h3 className="HowTo3">How To page here</h3>
-        
-        
+
         <h1>First video</h1>
-        <h2> How to copy down the python game and get started playing and coding</h2>
-        <h3>If you already have VS code and Python installed on your computer start here</h3>
+        <h2>
+          {" "}
+          How to copy down the python game and get started playing and coding
+        </h2>
+        <h3>
+          If you already have VS code and Python installed on your computer
+          start here
+        </h3>
         <iframe
           title="Brian Code Basics Video"
           width="650"
@@ -21,11 +26,14 @@ class HowTo extends Component {
           allowFullScreen
         ></iframe>
         <h1>Second video</h1>
+        <h2> how to install VS code and Python if you don't have it already</h2>
+        <h5> placeholder ... video to be recorded soon...</h5>
+        <h1>Third video</h1>
+        <h2> how to set up a GitHub account</h2>
+        <h5> placeholder ... video to be recorded soon...</h5>
       </div>
     );
   }
 }
 
 export default HowTo;
-
-
