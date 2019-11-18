@@ -1,0 +1,4 @@
+Someone famaliar with Python but not JavaScript
+Or vice versa
+To be able to have a simple example of complex things these languages can do
+To see side by side the difference in prompts and console log of the same simple game
