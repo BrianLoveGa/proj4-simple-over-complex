@@ -20,6 +20,7 @@ class HowTo extends Component {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
+        <h1>Second video</h1>
       </div>
     );
   }
