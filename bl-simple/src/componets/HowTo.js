@@ -8,6 +8,7 @@ class HowTo extends Component {
         <h3 className="HowTo3">How To page here</h3>
         {/* placeholder until i make how to videos */}
         <h5>old project video</h5>
+        <h3>testing update to live site</h3>
         <iframe
           title="Brian Code Basics Video"
           width="560"
