@@ -5,12 +5,36 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h3 className="Home3">Home page here</h3>
-        <h2>I wanted to build an open source game that anyone could play ... like <a href="https://www.twilio.com/quest" rel="noopener noreferrer"
-            target="_blank">Twillo Quest</a> or the google <a href="https://beinternetawesome.withgoogle.com/en_us/interland" rel="noopener noreferrer"
-            target="_blank">InterLand Game</a> </h2>
+        <div className="intro">
+          <h3 >Home page here</h3>
+          <h2>
+            I wanted to build an open source game that anyone could play ...
+            <br>
+            </br>
+            like{" "}
+            <a
+              href="https://www.twilio.com/quest"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Twillo Quest
+            </a>{" "}
+            or the Google{" "}
+            <a
+              href="https://beinternetawesome.withgoogle.com/en_us/interland"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              InterLand Game
+            </a>{" "}
+          </h2>
 
-        <h2>However my time frame of 4 days and budget of 0$ and team size of 1 forced be to scale back my grand designs to this simple game which will grow over time.</h2>
+          <h2>
+            However my time frame of 4 days and budget of 0$ and team size of 1
+            forced be to scale back my grand designs to this simple version which
+            will grow over time.
+          </h2>
+        </div>
         <div className="HomeContainer">
           <div className="star-wars-intro">
             <p className="intro-text">

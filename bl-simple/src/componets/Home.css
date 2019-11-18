@@ -1,3 +1,12 @@
+.intro{
+  background-color: rgb(219, 159, 6);
+  padding:20px;
+  text-align: center;
+  
+}
+
+
+
 .HomeContainer {
   background: url("../images/starsBg-wide.jpg") center center;
   color: white;
@@ -14,8 +23,8 @@ Author: Polar Notion
 Author URI: http://polarnotion.com/
 Description: A simple CSS library for creating a Star Wars Intro Crawl. May the Force be with you.
 Version: 1.0
+Thanks: Open Source coders
 */
-
 
 
 .star-wars-intro {
@@ -118,7 +127,7 @@ Version: 1.0
   position: absolute;
   width: 2.6em;
   left: 50%;
-  top: 1vh;
+  top: 10px;
   font-size: 10em;
   text-align: center;
   margin-left: -1.3em;

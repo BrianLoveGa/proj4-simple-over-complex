@@ -79,7 +79,7 @@ footer {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
   }
   nav {
-    padding: 10px 0 0;
+    padding: 10px 0 5px 0;
   }
   .link {
     font-size: 15px;
@@ -87,6 +87,9 @@ footer {
     margin: 1%;
   }
   .code{
+    font-size:15px;
+    padding:2px;
+    margin:10px;
     font-size:15px;
   }
   .foot {

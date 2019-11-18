@@ -6,6 +6,18 @@ class HowTo extends Component {
     return (
       <div className="HowToContainer">
         <h3 className="HowTo3">How To page here</h3>
+        <h1>Intro video</h1>
+        <div className="movie">
+          <iframe
+            title="Brian Site Intro Video"
+            width="650"
+            height="400"
+            src="https://www.youtube.com/embed/I6owDgwBjN4"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
 
         <h1>First video</h1>
         <h2>
@@ -16,15 +28,17 @@ class HowTo extends Component {
           If you already have VS code and Python installed on your computer
           start here
         </h3>
-        <iframe
-          title="Brian Code Basics Video"
-          width="650"
-          height="400"
-          src="https://www.youtube.com/embed/n8Ent2PFo9Y"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div className="movie">
+          <iframe
+            title="Brian Code Basics Video"
+            width="650"
+            height="400"
+            src="https://www.youtube.com/embed/n8Ent2PFo9Y"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
         <h1>Second video</h1>
         <h2> how to install VS code and Python if you don't have it already</h2>
         <h5> placeholder ... video to be recorded soon...</h5>

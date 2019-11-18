@@ -1,3 +1,12 @@
+.PythonContainer{
+    padding:20px;
+    background-color: rgb(30, 201, 27);
+    -webkit-text-stroke: 1px rgb(160, 154, 154);
+
+}
+
+
+
 .mdcode{
     text-align: left;
     padding:15px;

@@ -1,3 +1,14 @@
+.JsPromptsContainer{
+    background-image: radial-gradient(
+    rgb(77, 78, 80),
+    rgb(134, 136, 135),
+    rgb(190, 192, 190)
+  ); 
+  padding:15px;
+}
+
+
+
 .game{
     background-color: orange;
     padding:10px;
@@ -26,4 +37,10 @@
         font-size:15px;
     }
 
+}
+
+
+
+.spacely{
+    height:200px;
 }

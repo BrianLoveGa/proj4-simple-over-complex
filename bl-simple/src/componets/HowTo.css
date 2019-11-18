@@ -1,5 +1,25 @@
-.HowToContainer{
-    background-color: lightseagreen;
-    padding:10px;
+.HowToContainer {
+  background-color: lightseagreen;
+  padding: 10px;
+}
 
+/* the below makes the videos auto responsive to screen size regardless of original ht wt settings */
+
+.movie {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  border:red dotted 2px;
+}
+
+.movie iframe,
+.movie object,
+.movie embed {
+  top: 0;
+  left: 15px;
+  width: 95%;
+  height: 95%;
+  position: absolute;
 }
