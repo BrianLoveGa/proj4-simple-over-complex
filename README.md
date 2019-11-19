@@ -121,6 +121,8 @@ Here is the rough first draft of what the home page would look like.
 <!-- Picture below of home page mock up draft for Simple > Complex app -->
 
 ![alt text](https://github.com/BrianLoveGa/proj4-simple-over-complex/blob/master/bl-simple/planning/wire-frames/simple%20index%20draft.png "Drawing of home page mock up draft for Simple > Complex app")
+
+
 Here is a rough draft for what I imagined the code markdown page would look like.
 <!-- Picture below of code markdown page mock up draft for Simple > Complex app -->
 
