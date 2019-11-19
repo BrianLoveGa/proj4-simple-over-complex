@@ -77,13 +77,13 @@ Thanks: Open Source coders
   content: ' ';
   top: 0;
   bottom: 60%;
-  background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+  background-image: linear-gradient(to top, rgba(0,0,0,1) 0%, transparent 100%);
   pointer-events: none;
 }
 
 .star-wars-intro .space-button {
   color: #EBD71C;
-  border: 12px solid #EBD71C;
+  border: 12px solid rgb(241, 223, 53);
   padding: 20px;
   background: transparent;
   text-decoration: none;
@@ -94,7 +94,7 @@ Thanks: Open Source coders
 
 .star-wars-intro .space-button:hover {
   background-color: #D2BE03;
-  border-color: #D2BE03;
+  border-color: #B8A40A;
   color: black;
 }
 
