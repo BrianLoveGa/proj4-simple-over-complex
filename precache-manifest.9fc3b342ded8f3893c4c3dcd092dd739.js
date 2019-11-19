@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae8c72fe8b2c33ad7d71bdd11a17db91",
+    "revision": "496baa50530efb431fae342751957c6a",
     "url": "/proj4-simple-over-complex/index.html"
   },
   {
-    "revision": "13f838199cd6224b6bae",
-    "url": "/proj4-simple-over-complex/static/css/main.af8463d9.chunk.css"
+    "revision": "f143c6d45a2798f6d3e8",
+    "url": "/proj4-simple-over-complex/static/css/main.5bd93709.chunk.css"
   },
   {
     "revision": "5ca9ac8bad790d933af4",
     "url": "/proj4-simple-over-complex/static/js/2.2125153f.chunk.js"
   },
   {
-    "revision": "13f838199cd6224b6bae",
+    "revision": "f143c6d45a2798f6d3e8",
     "url": "/proj4-simple-over-complex/static/js/main.96d0cf3a.chunk.js"
   },
   {
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6facb7848b69afb8e217eb3b99c4c33",
     "url": "/proj4-simple-over-complex/static/media/ReactCode.b6facb78.md"
+  },
+  {
+    "revision": "c00548f5d217ed324ae9096051927001",
+    "url": "/proj4-simple-over-complex/static/media/STARWARS.c00548f5.TTF"
+  },
+  {
+    "revision": "af7c07faaff0d16720c25db7990579e2",
+    "url": "/proj4-simple-over-complex/static/media/StarJedi-DGRW.af7c07fa.ttf"
   },
   {
     "revision": "768eb96f5039dd170820e344d6b6e129",
