@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab&display=swap');
+
+
+.codealongContainer {
+  background-image: linear-gradient(
+    to bottom left,
+    grey,
+    gray,
+    rgb(92, 185, 185),
+    pink,
+    gray,
+    pink,
+    hotpink
+  );
+  padding:30px;
+
+
+}
+.cah1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 320%;
+}
+
+.cah2{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size:200%;
+
+}
+
+.map1example{
+  width:50%;
+}
+
+.enemies{
+  width:50%;
+}

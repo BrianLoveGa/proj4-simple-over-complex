@@ -1,18 +1,23 @@
 import React from "react"; /// well its a react app
 import { Route, Switch, Link, Redirect } from "react-router-dom"; /// to have all the pages happy clicky
 import "./App.css"; /// b/c style points count
+
+/// lets have some components since ... thats what it's all about !
+
+import CodeAlong from "./componets/CodeAlong";
+import Dog from "./componets/Dog";
 import Home from "./componets/Home";
-import Weather from "./componets/Weather";
-import Python from "./componets/Python";
 import HowTo from "./componets/HowTo";
-import ReactGame from "./componets/ReactGame";
 import JsPrompts from "./componets/JsPrompts";
+import PromptCode from "./componets/PromptCode";
+import Python from "./componets/Python";
 import PythonBasic from "./componets/PythonBasic";
 import PythonCodeAlong from "./componets/PythonCodeAlong";
+import ReactGame from "./componets/ReactGame";
 import ReactGameCode from "./componets/ReactGameCode";
-import PromptCode from "./componets/PromptCode";
-import Dog from "./componets/Dog";
+import Weather from "./componets/Weather";
 import Zen from "./componets/zen";
+
 
 function App() {
   return (
@@ -54,6 +59,7 @@ function App() {
           <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
           <Route path="/dog" exact={true} component={Dog} />{" "}
           <Route path="/zen" exact={true} component={Zen} />{" "}
+          <Route path="/python/codealong" exact={true} component={CodeAlong} />{" "}
           <Route path="/python/basic" exact={true} component={PythonBasic} />{" "}
           <Route
             path="/python/along"
@@ -71,18 +77,22 @@ function App() {
       </main>{" "}
       <hr></hr>
       <footer>
+        <div className="responsive">
         <h4>
           Made with love by{" "}
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className="foot"
-            href="https://www.brianloveless.com"
-          >
-            {" "}
-            Brian Loveless{" "}
-          </a>
+          
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              className="foot"
+              href="https://www.brianloveless.com"
+            >
+              {" "}
+              Brian Loveless{" "}
+            </a>
+          
         </h4>
+        </div>
       </footer>
     </div>
   );

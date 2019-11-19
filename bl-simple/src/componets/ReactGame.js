@@ -228,19 +228,21 @@ class ReactGame extends Component {
             Enemy Health: {this.state.badHealth} _-_ Enemy Attack:{" "}
             {this.state.badAttack}
           </h2>
-          <button className="reset" onClick={this.reset}>
-            Reset the game
-          </button>
-          <button className="puzzle" onClick={this.puzzle}>
-            Try a Puzzle
-          </button>
-          <button className="potion" onClick={this.healthPotion}>
-            Take A Health potion
-          </button>
-          <button className="fight" onClick={this.fight}>
-            Fight the Enemy
-          </button>
-          <br></br>
+          <div className="responsive">
+            <button className="reset" onClick={this.reset}>
+              Reset the game
+            </button>
+            <button className="puzzle" onClick={this.puzzle}>
+              Try a Puzzle
+            </button>
+            <button className="potion" onClick={this.healthPotion}>
+              Take A Health potion
+            </button>
+            <button className="fight" onClick={this.fight}>
+              Fight the Enemy
+            </button>
+            <br></br>
+          </div>
         </div>
         <hr></hr>
         <br></br>

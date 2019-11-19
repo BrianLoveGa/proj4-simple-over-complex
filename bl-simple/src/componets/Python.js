@@ -30,13 +30,14 @@ class Python extends Component {
           The link for code along version will be what we start with in the
           upcoming Video series I'll be making soon.
         </h3>
-
-        <Link className="code" to="/python/basic">
-          Basic code version
-        </Link>
-        <Link className="code" to="/python/along">
-          Version for code along video tutorial
-        </Link>
+        <div className="responsive">
+          <Link className="code" to="/python/basic">
+            Basic code version
+          </Link>
+          <Link className="tutorials" to="/python/codealong">
+            Code along video tutorials here
+          </Link>
+        </div>
         <h3>Video series for code along to make this game coming soon </h3>
       </div>
     );

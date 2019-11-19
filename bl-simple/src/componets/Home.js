@@ -30,8 +30,8 @@ class Home extends Component {
           </h2>
 
           <h2>
-            However my time frame of 4 days and budget of 0$ and team size of 1
-            forced be to scale back my grand designs to this simple version which
+            However my time frame of 4 days, budget of 0 dollars and team size of 1
+            forced me to scale back my grand designs to this simple version which
             will grow over time.
           </h2>
         </div>
@@ -71,7 +71,7 @@ class Home extends Component {
                 </p>
                 <br></br>
                 <p className="content-body">
-                  My girlfriend asked, "why can't you just make a site where I
+                  My girlfriend asked, "Why can't you just make a site where I
                   can look at dog pictures?" So I included an API fetch to a dog
                   pictures site and now you can also look at random dog pictures
                   on this site.
@@ -118,7 +118,7 @@ class Home extends Component {
             be able to check the weather based on a city and country input.
           </p>
           <p>
-            My girlfriend asked, "why can't you just make a site where I can
+            My girlfriend asked: "Why can't you just make a site where I can
             look at dog pictures?" So I included an API fetch to a dog pictures
             site and now you can also look at random dog pictures on this site.
           </p>

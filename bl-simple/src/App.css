@@ -73,6 +73,16 @@ footer {
   font-size: 18px;
 }
 
+
+
+.responsive{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
 @media screen and (max-width: 825px) {
   .App-header {
     font-size: 25px;
@@ -90,7 +100,7 @@ footer {
     font-size:15px;
     padding:2px;
     margin:10px;
-    font-size:15px;
+    
   }
   .foot {
     font-size: 10px;
@@ -100,7 +110,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
 
     .game{
         margin:5%;
@@ -110,6 +120,15 @@ footer {
     .code{
     font-size:10px;
     padding:1px;
+  }
+
+}
+
+
+@media screen and (max-width: 265px) {
+   .foot {
+    font-size: 15px;
+    padding:0%;
   }
 
 }
