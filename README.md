@@ -104,7 +104,7 @@ __User Stories__
          I want [ a site with a simple game I can make and modify ]  
          so that [ I can get into learning code ]
 
-2) As a <role> I can <capability>, so that <receive benefit>
+2) As a < role > I can < capability >, so that < receive benefit >
 
 
          As a < person interested in learing code to make games > 
