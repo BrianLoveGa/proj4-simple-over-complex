@@ -33,7 +33,12 @@ Namespaces are one honking great idea -- let's do more of those!
 
 
 ******
-My goal here was/is to provide a simple game coded in Python3 that users can copy and paste into their code editors or even the Python IDLE app and play if they are a little to a lot experienced.
+I plan to continue to add to and develop this platform for making a simple game into something larger and larger until I have a game like I normally play. I originally wanted to have a fully furnished action / adventure game but my budget of $ 0, team size of 1, and 4 day time limit for this had me scale back. There is a simple python game code you can copy down and play with. There is also a vanilla JS prompts version of the game and a React style buttons and prompts version on this site for the puroposes of comparison and contrasting Python3 and JavaScript. 
+
+I also added in a weather and dog picture component for fun.
+
+
+__My goal__ here was/is to provide a simple game coded in Python3 that users can copy and paste into their code editors or even the Python IDLE app and play if they are a little to a lot experienced.
 
 Simple being 1 hero/heroine character you choose the name for ... 1 'bad-guy' class ... and 3 questions (riddles, puzzles) to solve. You start with 10 health and 10 attack, the 'bad guy' has 50 health and 50 attack.
 
@@ -54,11 +59,11 @@ Coming from a background of loving video games and dreaming of coding for years 
 
 This is more for learning the basics and appealing to new potential coders.
 
-
+I plan on starting a web series where we code this out together. I am also working on a version of a text rpg in python with as map, and more than 1 enemy. 
 
 ******
 
-languages: HTML, CSS, Javascript, Python, React for views. No databases being used so no real back-end needed, no plans for leaderboard or really keeping score for this simple game. Have added some API fetch requests with an open weather map .org component and one from dog.ceo API.
+__Languages:__ HTML, CSS, Javascript, Python, React for views. No databases being used so no real back-end needed, no plans for leaderboard or really keeping score for this simple game. Have added some API fetch requests with an open weather map .org component and one from dog.ceo API.
 
 Would use Python3 for starter version of game (not playable in the webpage but able to be copied and run locally to play), would use HTML, CSS, & JS for pages themselves, would use JS for the playable in-browser versions. 
 
@@ -75,6 +80,7 @@ simple-prompts.js ( to play the same game but through prompts in browser)
 simple-React.js (to play in browser)
 
 ****
+__Valid__ HTML and CSS pass w3 validation
 
 <!-- Picture below of HTML validation for Simple > Complex app -->
 
@@ -85,6 +91,10 @@ simple-React.js (to play in browser)
 ![alt text](https://github.com/BrianLoveGa/proj4-simple-over-complex/blob/master/bl-simple/planning/doc-pics/Screen%20Shot%202019-11-18%20at%2010.46.52%20PM.png "Screen shot of CSS validation for Simple > Complex app")
 
 *****
+
+
+
+
 🖖 🅛🅘🅥🅔 🅛🅞🅝🅖 🅐🅝🅓 🅟🅡🅞🅢🅟🅔🅡 🖖
 
 (c) B-Love Codes
