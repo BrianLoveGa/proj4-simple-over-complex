@@ -100,21 +100,21 @@ __User Stories__
 1) *As a [type of user], I want [an action] so that [a benefit/a value]
 
 
-As a [ kid / teen looking into possibly coding ], 
-I want [ a site with a simple game I can make and modify ]  
-so that [ I can get into learning code ]
+         As a [ kid / teen looking into possibly coding ], 
+         I want [ a site with a simple game I can make and modify ]  
+         so that [ I can get into learning code ]
 
-2)As a <role> I can <capability>, so that <receive benefit>
+2) As a <role> I can <capability>, so that <receive benefit>
 
 
-As a < person interested in learing code to make games > 
-I can < use this site to follow along and grow skills >,
-so that < coding is more fun and there are more games and happy people in the world >
+         As a < person interested in learing code to make games > 
+         I can < use this site to follow along and grow skills >,
+         so that < coding is more fun and there are more games and happy people in the world >
 
-3)Someone famaliar with Python but not JavaScript ...
-Or vice versa ...
-To be able to have a simple example of the complex things these languages can do.
-To see side by side the difference in prompts and console log of the same simple game.
+3) Someone famaliar with Python but not JavaScript ...
+         Or vice versa ...
+         To be able to have a simple example of the complex things these languages can do.
+         To see side by side the difference in prompts and console log of the same simple game.
 
 
 ******
