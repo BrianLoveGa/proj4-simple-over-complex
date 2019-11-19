@@ -133,7 +133,9 @@ Here is a rough draft for what I imagined the code markdown page would look like
 
 *****
 
-__Valid__ HTML and CSS pass w3 validation
+__Valid__ 
+
+HTML and CSS pass w3 validation
 
 <!-- Picture below of HTML validation for Simple > Complex app -->
 
