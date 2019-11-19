@@ -27,7 +27,13 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 ******
-My goal here is to provide a simple game coded in Python3 that users can copy and paste into their code editors or even the Python IDLE app and play if they are a little to a lot experienced.
+<!-- Picture below of home page of Simple > Complex app -->
+
+![alt text](https://github.com/BrianLoveGa/proj4-simple-over-complex/blob/master/bl-simple/planning/doc-pics/Screen%20Shot%202019-11-17%20at%204.22.27%20PM.png "Screen shot from home page of Simple > Complex app")
+
+
+******
+My goal here was/is to provide a simple game coded in Python3 that users can copy and paste into their code editors or even the Python IDLE app and play if they are a little to a lot experienced.
 
 Simple being 1 hero/heroine character you choose the name for ... 1 'bad-guy' class ... and 3 questions (riddles, puzzles) to solve. You start with 10 health and 10 attack, the 'bad guy' has 50 health and 50 attack.
 
@@ -52,7 +58,7 @@ This is more for learning the basics and appealing to new potential coders.
 
 ******
 
-languages: HTML, CSS, Javascript, Python, React for views. No databases being used so no real back-end needed, no plans for leaderboard or really keeping score for this simple game. 
+languages: HTML, CSS, Javascript, Python, React for views. No databases being used so no real back-end needed, no plans for leaderboard or really keeping score for this simple game. Have added some API fetch requests with an open weather map .org component and one from dog.ceo API.
 
 Would use Python3 for starter version of game (not playable in the webpage but able to be copied and run locally to play), would use HTML, CSS, & JS for pages themselves, would use JS for the playable in-browser versions. 
 
@@ -68,9 +74,15 @@ simple-prompts.js ( to play the same game but through prompts in browser)
 
 simple-React.js (to play in browser)
 
+****
 
+<!-- Picture below of HTML validation for Simple > Complex app -->
 
+![alt text](https://github.com/BrianLoveGa/proj4-simple-over-complex/blob/master/bl-simple/planning/doc-pics/Screen%20Shot%202019-11-18%20at%2010.46.18%20PM.png "Screen shot of HTML validation for Simple > Complex app")
 
+<!-- Picture below of CSS validation for Simple > Complex app -->
+
+![alt text](https://github.com/BrianLoveGa/proj4-simple-over-complex/blob/master/bl-simple/planning/doc-pics/Screen%20Shot%202019-11-18%20at%2010.46.52%20PM.png "Screen shot of CSS validation for Simple > Complex app")
 
 *****
 🖖 🅛🅘🅥🅔 🅛🅞🅝🅖 🅐🅝🅓 🅟🅡🅞🅢🅟🅔🅡 🖖
