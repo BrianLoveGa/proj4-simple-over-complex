@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/proj4-simple-over-complex/static/css/main.5bd93709.chunk.css",
-    "main.js": "/proj4-simple-over-complex/static/js/main.96d0cf3a.chunk.js",
-    "main.js.map": "/proj4-simple-over-complex/static/js/main.96d0cf3a.chunk.js.map",
+    "main.css": "/proj4-simple-over-complex/static/css/main.ae0d2f32.chunk.css",
+    "main.js": "/proj4-simple-over-complex/static/js/main.e0d0b39b.chunk.js",
+    "main.js.map": "/proj4-simple-over-complex/static/js/main.e0d0b39b.chunk.js.map",
     "runtime-main.js": "/proj4-simple-over-complex/static/js/runtime-main.ad86c6ab.js",
     "runtime-main.js.map": "/proj4-simple-over-complex/static/js/runtime-main.ad86c6ab.js.map",
-    "static/js/2.2125153f.chunk.js": "/proj4-simple-over-complex/static/js/2.2125153f.chunk.js",
-    "static/js/2.2125153f.chunk.js.map": "/proj4-simple-over-complex/static/js/2.2125153f.chunk.js.map",
+    "static/js/2.2cff0837.chunk.js": "/proj4-simple-over-complex/static/js/2.2cff0837.chunk.js",
+    "static/js/2.2cff0837.chunk.js.map": "/proj4-simple-over-complex/static/js/2.2cff0837.chunk.js.map",
     "index.html": "/proj4-simple-over-complex/index.html",
-    "precache-manifest.9fc3b342ded8f3893c4c3dcd092dd739.js": "/proj4-simple-over-complex/precache-manifest.9fc3b342ded8f3893c4c3dcd092dd739.js",
+    "precache-manifest.b4aae0d05e8a97398058fad09a6582bc.js": "/proj4-simple-over-complex/precache-manifest.b4aae0d05e8a97398058fad09a6582bc.js",
     "service-worker.js": "/proj4-simple-over-complex/service-worker.js",
-    "static/css/main.5bd93709.chunk.css.map": "/proj4-simple-over-complex/static/css/main.5bd93709.chunk.css.map",
+    "static/css/main.ae0d2f32.chunk.css.map": "/proj4-simple-over-complex/static/css/main.ae0d2f32.chunk.css.map",
     "static/media/CodeAlongVersion.md": "/proj4-simple-over-complex/static/media/CodeAlongVersion.1a8ba028.md",
     "static/media/PromptsCode.md": "/proj4-simple-over-complex/static/media/PromptsCode.665ba0ab.md",
     "static/media/PythonBasicCode.md": "/proj4-simple-over-complex/static/media/PythonBasicCode.b32733cb.md",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ad86c6ab.js",
-    "static/js/2.2125153f.chunk.js",
-    "static/css/main.5bd93709.chunk.css",
-    "static/js/main.96d0cf3a.chunk.js"
+    "static/js/2.2cff0837.chunk.js",
+    "static/css/main.ae0d2f32.chunk.css",
+    "static/js/main.e0d0b39b.chunk.js"
   ]
 }
