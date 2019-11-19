@@ -4,6 +4,8 @@ import WthrForm from "./WthrForm";
 import WthrForecast from "./WthrForecast";
 
 const apiKey = "2416761b1a4e0e266b8e6bb58c037760";
+/// yeah I should hide this, but really - you gonna steal my free api key to a free api?
+/// just make an account - it's free.  Don't be that person. 
 
 class Weather extends Component {
   state = {
