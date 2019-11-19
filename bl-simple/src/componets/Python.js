@@ -6,17 +6,16 @@ class Python extends Component {
   render() {
     return (
       <div className="PythonContainer">
-        <h3 className="Python3">Python page here</h3>
+        <Link className="poem" to="/zen">
+          ZEN
+        </Link>
         <h1>
-          After following the{" "}
-          <Link  to="/howto">
-            How To
-          </Link>{" "}
-          videos and installing Python on your computer...
+          After following the <Link to="/howto">How To</Link> videos and
+          installing Python on your computer ...
         </h1>
-        <h1>Or if you are experienced with coding already</h1>
+        <h1>Or if you are experienced with coding already ...</h1>
         <h1>
-          One must simply choose a copy of the code below to clone down to be
+          a link to the code is avaliable below ... feel free to grab it to be
           able to play the game in Python on your own computer!
         </h1>
         <h1>
@@ -24,9 +23,13 @@ class Python extends Component {
           you want.
         </h1>
         <h2>
-          The same game you can also play in JS Prompts and React style with buttons and 
-          prompts, but encoded in Python3
+          The same game you can also play in JS Prompts and React styles on this
+          site, but encoded in Python3.
         </h2>
+        <h3>
+          The link for code along version will be what we start with in the
+          upcoming Video series I'll be making soon.
+        </h3>
 
         <Link className="code" to="/python/basic">
           Basic code version
@@ -34,6 +37,7 @@ class Python extends Component {
         <Link className="code" to="/python/along">
           Version for code along video tutorial
         </Link>
+        <h3>Video series for code along to make this game coming soon </h3>
       </div>
     );
   }

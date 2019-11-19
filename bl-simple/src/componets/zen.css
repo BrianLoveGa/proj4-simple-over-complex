@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap');
+
+.zen{
+    font-family: 'Happy Monkey', sans-serif, Impact, Arial;
+    background-color: black;
+    color:whitesmoke;
+    font-size:160%;
+    padding:10px;
+}
+

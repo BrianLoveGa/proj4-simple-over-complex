@@ -12,6 +12,7 @@ import PythonCodeAlong from "./componets/PythonCodeAlong";
 import ReactGameCode from "./componets/ReactGameCode";
 import PromptCode from "./componets/PromptCode";
 import Dog from "./componets/Dog";
+import Zen from "./componets/zen";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/reactgame" exact={true} component={ReactGame} />{" "}
           <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
           <Route path="/dog" exact={true} component={Dog} />{" "}
+          <Route path="/zen" exact={true} component={Zen} />{" "}
           <Route path="/python/basic" exact={true} component={PythonBasic} />{" "}
           <Route
             path="/python/along"

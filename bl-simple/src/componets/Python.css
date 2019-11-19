@@ -1,18 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Calistoga|Open+Sans|Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Calistoga|Open+Sans|Roboto&display=swap");
 
-
-
-.PythonContainer{
-    padding:20px;
-    background-color: rgb(30, 201, 27);
-    color:rgb(61, 2, 2);
-    font-family: Calistoga, Arial, Helvetica, sans-serif;
-
+.PythonContainer {
+  padding: 20px;
+  background-color: rgb(30, 201, 27);
+  color: rgb(61, 2, 2);
+  font-family: Calistoga, Arial, Helvetica, sans-serif;
 }
 
+.mdcode {
+  text-align: left;
+  padding: 15px;
+}
 
+.poem {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding: 10px;
+  border: white solid 2px;
+  border-radius: 40px;
+}
 
-.mdcode{
-    text-align: left;
-    padding:15px;
+@media screen and (max-width: 825px) {
+  .poem {
+    font-size: 15px;
+    padding: 5px;
+  }
 }
