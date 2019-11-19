@@ -2,6 +2,7 @@
 
 
 __Simple > Complex__ .... a basic 'game' in __Python3__ and In __JavaScript__
+[deployed on the web](https://brianlovega.github.io/proj4-simple-over-complex/)
 
 ******
 Drawing on Inspiration from 'The Zen of Python' by: Tim peters
@@ -80,6 +81,56 @@ simple-prompts.js ( to play the same game but through prompts in browser)
 simple-React.js (to play in browser)
 
 ****
+__Installation__
+
+To run the python game one simply needs a code editor and python installed locally.
+Copy down the provided code and run the file in terminal (command line) or through the code editor.
+
+To run the vanilla JS Prompts game one simply needs a code editor. 
+Copy down the provided code and link it to an html file. 
+It will work offline (ie you don't have to run it through a website)
+
+To copy and run the whole site all that is required is react, react router dom, and react markdown. As well as a free API key for open weather map . org . 
+
+All 3 versions of the 'game' code is freely advertised and avaliable for anyone to copy down and make their own better version of. 
+
+******
+__User Stories__
+
+1) *As a [type of user], I want [an action] so that [a benefit/a value]
+
+
+As a [ kid / teen looking into possibly coding ], 
+I want [ a site with a simple game I can make and modify ]  
+so that [ I can get into learning code ]
+
+2)As a <role> I can <capability>, so that <receive benefit>
+
+
+As a < person interested in learing code to make games > 
+I can < use this site to follow along and grow skills >,
+so that < coding is more fun and there are more games and happy people in the world >
+
+3)Someone famaliar with Python but not JavaScript ...
+Or vice versa ...
+To be able to have a simple example of the complex things these languages can do.
+To see side by side the difference in prompts and console log of the same simple game.
+
+
+******
+__Planning__
+Here is the rough first draft of what the home page would look like.
+<!-- Picture below of home page mock up draft for Simple > Complex app -->
+
+![alt text](https://github.com/BrianLoveGa/proj4-simple-over-complex/blob/master/bl-simple/planning/wire-frames/simple%20index%20draft.png "Drawing of home page mock up draft for Simple > Complex app")
+Here is a rough draft for what I imagined the code markdown page would look like.
+<!-- Picture below of code markdown page mock up draft for Simple > Complex app -->
+
+![alt text](https://github.com/BrianLoveGa/proj4-simple-over-complex/blob/master/bl-simple/planning/wire-frames/simple%20py%20vz%20draft.png "Drawing of code markdown page mock up draft for Simple > Complex app")
+
+
+*****
+
 __Valid__ HTML and CSS pass w3 validation
 
 <!-- Picture below of HTML validation for Simple > Complex app -->
@@ -92,7 +143,20 @@ __Valid__ HTML and CSS pass w3 validation
 
 *****
 
+__Hurdles and problems__
 
+Getting the syntax correct in the first python game was a decent enough task in and of itself. Trying to keep the exact same style for the vanbilla JS prompts version was tricky sonce the 2 languages are different in a few ways. 
+
+There was a struggle for a minute I was having trying to prevent an empty string form being entered for the name of the player. I reached out to the kindness of strangers and got a solution from stack overflow. 
+
+Of course due to building the Python game first in the Git Repo and not a React App when deployment time came there were lots of headaches and issues and file restructring that I had to do. 
+
+Before this page I had never rendered a markdown file on a site before nor had I ever embedded YouTube videos. This is also the first time I have used (star wars(c)) Generic Space Sci-Fi Movie Title scroll effects. 
+
+I will be adding a game with much more elements to this site as I continue to grow my skills and my free time permits it. 
+
+
+******
 
 
 🖖 🅛🅘🅥🅔 🅛🅞🅝🅖 🅐🅝🅓 🅟🅡🅞🅢🅟🅔🅡 🖖
