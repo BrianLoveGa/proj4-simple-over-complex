@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b71b86ea4229b8e21261f489da9d7d9",
+    "revision": "e3f91cfd33a2ae68cf2a4acbc77370a0",
     "url": "/proj4-simple-over-complex/index.html"
   },
   {
-    "revision": "4ccefed19b0940cad3a5",
-    "url": "/proj4-simple-over-complex/static/css/main.ae0d2f32.chunk.css"
+    "revision": "0c637856784ec2e9ae1e",
+    "url": "/proj4-simple-over-complex/static/css/main.f79e7121.chunk.css"
   },
   {
-    "revision": "ddbbc4c0bcdf97d07387",
-    "url": "/proj4-simple-over-complex/static/js/2.2cff0837.chunk.js"
+    "revision": "249caed6089071c632ad",
+    "url": "/proj4-simple-over-complex/static/js/2.c047daae.chunk.js"
   },
   {
-    "revision": "4ccefed19b0940cad3a5",
-    "url": "/proj4-simple-over-complex/static/js/main.e0d0b39b.chunk.js"
+    "revision": "0c637856784ec2e9ae1e",
+    "url": "/proj4-simple-over-complex/static/js/main.4af3a186.chunk.js"
   },
   {
     "revision": "afe2a0c0df3ea304d745",
@@ -42,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "af7c07faaff0d16720c25db7990579e2",
     "url": "/proj4-simple-over-complex/static/media/StarJedi-DGRW.af7c07fa.ttf"
+  },
+  {
+    "revision": "6245d8f82c0976b039f886dda7b04981",
+    "url": "/proj4-simple-over-complex/static/media/enemies.6245d8f8.png"
+  },
+  {
+    "revision": "649af20db86498f566742273128437fe",
+    "url": "/proj4-simple-over-complex/static/media/map.649af20d.png"
   },
   {
     "revision": "768eb96f5039dd170820e344d6b6e129",
