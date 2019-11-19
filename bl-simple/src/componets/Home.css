@@ -1,11 +1,25 @@
-.intro{
-  background-color: rgb(219, 159, 6);
-  padding:20px;
-  text-align: center;
-  
+@font-face {
+  font-family: "STARWARS";
+  src: url("./fonts/STARWARS/STARWARS.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: "StarJedi";
+  src: url("./fonts/boba-fonts_star-jedi/StarJedi-DGRW.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Open+Sans|Roboto&display=swap');
+
+.intro {
+  background-color: rgb(219, 159, 6);
+  padding: 20px;
+  text-align: center;
+  font-family: Roboto, arial, verdana, sans-serif;
+}
 
 .HomeContainer {
   background: url("../images/starsBg-wide.jpg") center center;
@@ -15,7 +29,6 @@
   height: 500px;
 }
 
-
 /*
 Name: StarWarsIntro.css
 URI: polarnotion.github.io/starwarsintro
@@ -23,17 +36,16 @@ Author: Polar Notion
 Author URI: http://polarnotion.com/
 Description: A simple CSS library for creating a Star Wars Intro Crawl. May the Force be with you.
 Version: 1.0
-Thanks: Open Source coders
+Thanks: Open Source coders for the starter template had to modify for my application.
 */
-
 
 .star-wars-intro {
   background: url("../images/starsBg-wide.jpg") center center;
   width: 100%;
   height: 100%;
-  font-family: "Droid Sans", arial, verdana, sans-serif;
+  font-family: "StarJedi", arial, verdana, sans-serif;
   font-weight: 700;
-  color: #EBD71C;
+  color: #ebd71c;
   background-color: #000;
   overflow: hidden;
   position: relative;
@@ -56,7 +68,7 @@ Thanks: Open Source coders
   animation: intro 2s ease-out;
 }
 
-.star-wars-intro .main-content{
+.star-wars-intro .main-content {
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -74,15 +86,19 @@ Thanks: Open Source coders
 
 .star-wars-intro .main-content:after {
   position: absolute;
-  content: ' ';
+  content: " ";
   top: 0;
   bottom: 60%;
-  background-image: linear-gradient(to top, rgba(0,0,0,1) 0%, transparent 100%);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    transparent 100%
+  );
   pointer-events: none;
 }
 
 .star-wars-intro .space-button {
-  color: #EBD71C;
+  color: #ebd71c;
   border: 12px solid rgb(241, 223, 53);
   padding: 20px;
   background: transparent;
@@ -93,15 +109,15 @@ Thanks: Open Source coders
 }
 
 .star-wars-intro .space-button:hover {
-  background-color: #D2BE03;
-  border-color: #B8A40A;
+  background-color: #d2be03;
+  border-color: #b8a40a;
   color: black;
 }
 
 .star-wars-intro .space-button:active,
 .star-wars-intro .space-button:focus {
-  background-color: #B8A40A;
-  border-color: #B8A40A;
+  background-color: #b8a40a;
+  border-color: #d2be03;
   color: black;
 }
 
@@ -114,11 +130,12 @@ Thanks: Open Source coders
 .star-wars-intro .title-content > .content-header {
   text-align: center;
 }
-.content-header{
-    font-size: 200%;
+.content-header {
+  font-size: 200%;
 }
-.content-body{
-    font-size: 80%;
+.content-body {
+  font-size: 80%;
+  font-family: "StarJedi", arial, verdana, sans-serif;
 }
 
 /* Main Image Styles */
@@ -134,7 +151,8 @@ Thanks: Open Source coders
   line-height: 0.8em;
   letter-spacing: -0.05em;
   color: #000;
-  text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
+  text-shadow: -2px -2px 0 #ebd71c, 2px -2px 0 #ebd71c, -2px 2px 0 #ebd71c,
+    2px 2px 0 #ebd71c;
   opacity: 0;
   z-index: 1;
   -webkit-animation: logo 7s ease-out 2.5s;
@@ -149,69 +167,142 @@ Thanks: Open Source coders
 }
 
 @-webkit-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @-moz-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @-ms-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @-o-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-
 @-webkit-keyframes logo {
-  0% { -webkit-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -webkit-transform: scale(0.1); opacity: 0; }
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.1);
+    opacity: 0;
+  }
 }
 
 @-moz-keyframes logo {
-  0% { -moz-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -moz-transform: scale(0.1); opacity: 0; }
+  0% {
+    -moz-transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: scale(0.1);
+    opacity: 0;
+  }
 }
 
 @-ms-keyframes logo {
-  0% { -ms-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -ms-transform: scale(0.1); opacity: 0; }
+  0% {
+    -ms-transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -ms-transform: scale(0.1);
+    opacity: 0;
+  }
 }
 
 @-o-keyframes logo {
-  0% { -o-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -o-transform: scale(0.1); opacity: 0; }
+  0% {
+    -o-transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -o-transform: scale(0.1);
+    opacity: 0;
+  }
 }
 
 @keyframes logo {
-  0% { transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { transform: scale(0.1); opacity: 0; }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
 }
 
 @keyframes scroll {
-  0% { top: 100%; }
-  100% { top: -170%; }
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -170%;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -225,11 +316,8 @@ Thanks: Open Source coders
   }
 }
 
-
-
-.underscroll{
-  padding:10px;
+.underscroll {
+  padding: 10px;
   background-color: rgb(55, 58, 50);
-  color:white;
-  
+  color: white;
 }

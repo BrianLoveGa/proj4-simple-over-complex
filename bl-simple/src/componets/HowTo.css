@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Open+Sans|Roboto&display=swap');
+
+
 .HowToContainer {
   background-color: lightseagreen;
   padding: 10px;
+  font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* the below makes the videos auto responsive to screen size regardless of original ht wt settings */

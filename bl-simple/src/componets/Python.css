@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Open+Sans|Roboto&display=swap');
+
+
+
 .PythonContainer{
     padding:20px;
     background-color: rgb(30, 201, 27);
-    -webkit-text-stroke: 1px rgb(160, 154, 154);
+    color:rgb(61, 2, 2);
+    font-family: Calistoga, Arial, Helvetica, sans-serif;
 
 }
 
