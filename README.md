@@ -117,6 +117,8 @@ To see side by side the difference in prompts and console log of the same simple
 ```
 ******
 __Planning__
+
+
 Here is the rough first draft of what the home page would look like.
 <!-- Picture below of home page mock up draft for Simple > Complex app -->
 
