@@ -161,8 +161,14 @@ I will be adding a game with much more elements to this site as I continue to gr
 
 
 ******
+Here's a link to the "intro" video from YouTube :
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=I6owDgwBjN4
+" target="_blank"><img src="http://img.youtube.com/vi/I6owDgwBjN4/0.jpg" 
+alt="site introduction video screenshot" width="240" height="180"  /></a>
 
 
+*****
 🖖 🅛🅘🅥🅔 🅛🅞🅝🅖 🅐🅝🅓 🅟🅡🅞🅢🅟🅔🅡 🖖
 
 (c) B-Love Codes
