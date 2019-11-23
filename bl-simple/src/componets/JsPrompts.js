@@ -12,7 +12,7 @@ class JsPrompts extends Component {
           On this page access the original code to modify for your own game and
           you can play the prompts version below
         </h3>
-        <Link className="code" to="/jsprompts/code">
+        <Link className="code" to="/proj4-simple-over-complex/jsprompts/code">
           Click here for the prompts code
         </Link>
         <button

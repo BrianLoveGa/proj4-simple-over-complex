@@ -6,11 +6,12 @@ class Python extends Component {
   render() {
     return (
       <div className="PythonContainer">
-        <Link className="poem" to="/zen">
+        <Link className="poem" to="/proj4-simple-over-complex/zen">
           ZEN
         </Link>
         <h1>
-          After following the <Link to="/howto">How To</Link> videos and
+          After following the{" "}
+          <Link to="/proj4-simple-over-complex/howto">How To</Link> videos and
           installing Python on your computer ...
         </h1>
         <h1>Or if you are experienced with coding already ...</h1>
@@ -31,10 +32,13 @@ class Python extends Component {
           upcoming Video series I'll be making soon.
         </h3>
         <div className="responsive">
-          <Link className="code" to="/python/basic">
+          <Link className="code" to="/proj4-simple-over-complex/python/basic">
             Basic code version
           </Link>
-          <Link className="tutorials" to="/python/codealong">
+          <Link
+            className="tutorials"
+            to="/proj4-simple-over-complex/python/codealong"
+          >
             Code along video tutorials here
           </Link>
         </div>

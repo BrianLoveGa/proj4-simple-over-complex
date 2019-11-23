@@ -26,61 +26,104 @@ function App() {
         <h1> Simple > Complex</h1>
       </header>
       <nav>
-        <Link className="link" to="/">
+        <Link className="link" to="/proj4-simple-over-complex/">
           Home
         </Link>
 
-        <Link className="link" to="/python">
+        <Link className="link" to="/proj4-simple-over-complex/python">
           Python
         </Link>
-        <Link className="link" to="/howto">
+        <Link className="link" to="/proj4-simple-over-complex/howto">
           How To
         </Link>
-        <Link className="link" to="/jsprompts">
+        <Link className="link" to="/proj4-simple-over-complex/jsprompts">
           Js Prompts
         </Link>
-        <Link className="link" to="/reactgame">
+        <Link className="link" to="/proj4-simple-over-complex/reactgame">
           React Game
         </Link>
-        <Link className="link" to="/weather">
+        <Link className="link" to="/proj4-simple-over-complex/weather">
           Weather
         </Link>
-        <Link className="link" to="/dog">
+        <Link className="link" to="/proj4-simple-over-complex/dog">
           Dogs
         </Link>
       </nav>
       <main>
         <Switch>
-          <Route path="/" exact={true} component={Home} />{" "}
-          <Route path="/weather" exact={true} component={Weather} />{" "}
-          <Route path="/python" exact={true} component={Python} />{" "}
-          <Route path="/howto" exact={true} component={HowTo} />{" "}
-          <Route path="/reactgame" exact={true} component={ReactGame} />{" "}
-          <Route path="/jsprompts" exact={true} component={JsPrompts} />{" "}
-          <Route path="/dog" exact={true} component={Dog} />{" "}
-          <Route path="/zen" exact={true} component={Zen} />{" "}
-          <Route path="/python/codealong" exact={true} component={CodeAlong} />{" "}
-          <Route path="/python/basic" exact={true} component={PythonBasic} />{" "}
           <Route
-            path="/python/along"
+            path="/proj4-simple-over-complex/"
+            exact={true}
+            component={Home}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/weather"
+            exact={true}
+            component={Weather}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/python"
+            exact={true}
+            component={Python}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/howto"
+            exact={true}
+            component={HowTo}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/reactgame"
+            exact={true}
+            component={ReactGame}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/jsprompts"
+            exact={true}
+            component={JsPrompts}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/dog"
+            exact={true}
+            component={Dog}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/zen"
+            exact={true}
+            component={Zen}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/python/codealong"
+            exact={true}
+            component={CodeAlong}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/python/basic"
+            exact={true}
+            component={PythonBasic}
+          />{" "}
+          <Route
+            path="/proj4-simple-over-complex/python/along"
             exact={true}
             component={PythonCodeAlong}
           />{" "}
           <Route
-            path="/reactgame/code"
+            path="/proj4-simple-over-complex/reactgame/code"
             exact={true}
             component={ReactGameCode}
           />{" "}
-          <Route path="/jsprompts/code" exact={true} component={PromptCode} />{" "}
-          <Redirect to="/" />
+          <Route
+            path="/proj4-simple-over-complex/jsprompts/code"
+            exact={true}
+            component={PromptCode}
+          />{" "}
+          <Redirect to="/proj4-simple-over-complex/" />
         </Switch>{" "}
       </main>{" "}
       <hr></hr>
       <footer>
         <div className="responsive">
-        <h4>
-          Made with love by{" "}
-          
+          <h4>
+            Made with love by{" "}
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -90,8 +133,7 @@ function App() {
               {" "}
               Brian Loveless{" "}
             </a>
-          
-        </h4>
+          </h4>
         </div>
       </footer>
     </div>

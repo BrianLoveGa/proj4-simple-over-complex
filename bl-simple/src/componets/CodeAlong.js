@@ -28,9 +28,11 @@ export default class CodeAlong extends Component{
             ></img>
 
             <h2 className="cah2">First video expected late Nov 2019</h2>
-            <h3 className="cah1">Above examples are what this basic code can grow to include</h3>
+            <h3 className="cah1">
+              Above examples are what this basic code can grow to include
+            </h3>
             <h4 className="cah2">Starter code avaliable here</h4>
-            <Link className="code" to="/python/along">
+            <Link className="code" to="/proj4-simple-over-complex/python/along">
               Version for code along video tutorial
             </Link>
           </div>

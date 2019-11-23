@@ -196,7 +196,7 @@ class ReactGame extends Component {
       <div className="ReactGameContainer">
         <h2 className="top">How to do a simple game within React</h2>
         <div className="linkholder">
-          <Link className="code" to="/reactgame/code">
+          <Link className="code" to="/proj4-simple-over-complex/reactgame/code">
             Click here for the code on this page
           </Link>
         </div>
