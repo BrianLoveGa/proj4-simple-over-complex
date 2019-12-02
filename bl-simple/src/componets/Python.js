@@ -43,6 +43,7 @@ class Python extends Component {
           </Link>
         </div>
         <h3>Video series for code along to make this game coming soon </h3>
+        <h3> expected mid-December 2019 January 2020</h3>
       </div>
     );
   }
