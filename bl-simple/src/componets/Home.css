@@ -5,12 +5,7 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "StarJedi";
-  src: url("./fonts/boba-fonts_star-jedi/StarJedi-DGRW.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 @import url('https://fonts.googleapis.com/css?family=Calistoga|Open+Sans|Roboto&display=swap');
 
