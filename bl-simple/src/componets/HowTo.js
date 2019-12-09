@@ -45,6 +45,7 @@ class HowTo extends Component {
         <h1>Third video</h1>
         <h2> how to set up a GitHub account</h2>
         <h5> placeholder ... video to be recorded soon...</h5>
+        <h2> Coming this week</h2>
       </div>
     );
   }
