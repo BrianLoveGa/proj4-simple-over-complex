@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Dog.css";
 
 // this is how the api told me to do it
-
 // function to perform a get request
 function httpGet(theUrl) {
   var xmlHttp = new XMLHttpRequest();
@@ -15,16 +14,12 @@ function httpGet(theUrl) {
 function getRandomImage() {
   // get the json from the server
   var json = httpGet("https://dog.ceo/api/breeds/image/random");
-
   // decode the json into an array
   var array = JSON.parse(json);
-
   // get the image url from the array
   var url = array.message;
-
   // get the image object
   var image = document.getElementById("dogImage");
-
   // set the src of the image object
   image.src = url;
 }
