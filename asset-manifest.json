@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/proj4-simple-over-complex/static/css/main.f79e7121.chunk.css",
-    "main.js": "/proj4-simple-over-complex/static/js/main.e5e90148.chunk.js",
-    "main.js.map": "/proj4-simple-over-complex/static/js/main.e5e90148.chunk.js.map",
+    "main.css": "/proj4-simple-over-complex/static/css/main.906c8533.chunk.css",
+    "main.js": "/proj4-simple-over-complex/static/js/main.ea5ce34e.chunk.js",
+    "main.js.map": "/proj4-simple-over-complex/static/js/main.ea5ce34e.chunk.js.map",
     "runtime-main.js": "/proj4-simple-over-complex/static/js/runtime-main.ad86c6ab.js",
     "runtime-main.js.map": "/proj4-simple-over-complex/static/js/runtime-main.ad86c6ab.js.map",
-    "static/js/2.c047daae.chunk.js": "/proj4-simple-over-complex/static/js/2.c047daae.chunk.js",
-    "static/js/2.c047daae.chunk.js.map": "/proj4-simple-over-complex/static/js/2.c047daae.chunk.js.map",
+    "static/js/2.db2a4d02.chunk.js": "/proj4-simple-over-complex/static/js/2.db2a4d02.chunk.js",
+    "static/js/2.db2a4d02.chunk.js.map": "/proj4-simple-over-complex/static/js/2.db2a4d02.chunk.js.map",
     "index.html": "/proj4-simple-over-complex/index.html",
-    "precache-manifest.9b1060bf4ee80ae54650622dfb7bae2f.js": "/proj4-simple-over-complex/precache-manifest.9b1060bf4ee80ae54650622dfb7bae2f.js",
+    "precache-manifest.79662e69b00f36c76e30151f03ab3678.js": "/proj4-simple-over-complex/precache-manifest.79662e69b00f36c76e30151f03ab3678.js",
     "service-worker.js": "/proj4-simple-over-complex/service-worker.js",
-    "static/css/main.f79e7121.chunk.css.map": "/proj4-simple-over-complex/static/css/main.f79e7121.chunk.css.map",
+    "static/css/main.906c8533.chunk.css.map": "/proj4-simple-over-complex/static/css/main.906c8533.chunk.css.map",
     "static/media/CodeAlongVersion.md": "/proj4-simple-over-complex/static/media/CodeAlongVersion.1a8ba028.md",
     "static/media/PromptsCode.md": "/proj4-simple-over-complex/static/media/PromptsCode.665ba0ab.md",
     "static/media/PythonBasicCode.md": "/proj4-simple-over-complex/static/media/PythonBasicCode.b32733cb.md",
     "static/media/ReactCode.md": "/proj4-simple-over-complex/static/media/ReactCode.b6facb78.md",
+    "static/media/Rpsls.md": "/proj4-simple-over-complex/static/media/Rpsls.67ff33bf.md",
     "static/media/Home.css": "/proj4-simple-over-complex/static/media/starsBg-wide.768eb96f.jpg",
     "static/media/enemies.png": "/proj4-simple-over-complex/static/media/enemies.6245d8f8.png",
     "static/media/map.png": "/proj4-simple-over-complex/static/media/map.649af20d.png",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ad86c6ab.js",
-    "static/js/2.c047daae.chunk.js",
-    "static/css/main.f79e7121.chunk.css",
-    "static/js/main.e5e90148.chunk.js"
+    "static/js/2.db2a4d02.chunk.js",
+    "static/css/main.906c8533.chunk.css",
+    "static/js/main.ea5ce34e.chunk.js"
   ]
 }
