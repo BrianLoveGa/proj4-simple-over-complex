@@ -32,7 +32,7 @@ class Home extends Component {
           <h2>
             However my time frame of 4 days, budget of 0 dollars and team size of 1
             forced me to scale back my grand designs to this simple version which
-            will grow over time.
+            will grow over time. We can start with rock paper scissors and grow from there. 
           </h2>
         </div>
         <div className="HomeContainer">

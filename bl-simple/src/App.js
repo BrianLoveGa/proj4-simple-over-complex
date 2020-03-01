@@ -18,6 +18,7 @@ import ReactGameCode from "./componets/ReactGameCode";
 import Weather from "./componets/Weather";
 import Zen from "./componets/zen";
 
+import Rps from "./componets/RPSLS";
 
 function App() {
   return (
@@ -29,7 +30,9 @@ function App() {
         <Link className="link" to="/proj4-simple-over-complex/">
           Home
         </Link>
-
+        <Link className="link" to="/proj4-simple-over-complex/rpsls">
+          RPSLS
+        </Link>
         <Link className="link" to="/proj4-simple-over-complex/python">
           Python
         </Link>
@@ -61,6 +64,12 @@ function App() {
             exact={true}
             component={Weather}
           />{" "}
+          <Route
+            path="/proj4-simple-over-complex/rpsls"
+            exact={true}
+            component={Rps}
+          />
+          {""}
           <Route
             path="/proj4-simple-over-complex/python"
             exact={true}

@@ -193,6 +193,19 @@ class ReactGame extends Component {
       });
     };
   
+// Compiled with warnings.
+
+// ./src/componets/ReactGame.js
+//   Line 186:18:  Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+//   Line 187:18:  Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+//   Line 188:17:  Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+//   Line 189:18:  Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+//   Line 190:19:  Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+//   Line 191:21:  Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+//   Line 192:21:  Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+
+
+
 
   render() {
     return (

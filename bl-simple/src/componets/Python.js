@@ -20,7 +20,7 @@ class Python extends Component {
           able to play the game in Python on your own computer!
         </h1>
         <h1>
-          Then you can change the files and grow this simple game into anything
+          Then you can change the file and grow this simple game into anything
           you want.
         </h1>
         <h2>
@@ -42,8 +42,8 @@ class Python extends Component {
             Code along video tutorials here
           </Link>
         </div>
-        <h3>Video series for code along to make this game coming soon </h3>
-        <h3> expected mid-December 2019 January 2020</h3>
+        <h3>Video series for code along to make this game coming soon ...</h3>
+     
       </div>
     );
   }
