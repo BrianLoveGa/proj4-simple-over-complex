@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://brianlovega.github.io/proj4-simple-over-complex/",
   "dependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-markdown": "^4.2.2",
